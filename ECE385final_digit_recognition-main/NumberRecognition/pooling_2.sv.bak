@@ -1,0 +1,97 @@
+module pooling_2(
+	input logic 				  Clk, Reset, start,
+	input logic signed [31:0] curdata,
+	output logic 		 [13:0] data_addr,
+	output logic 		 [13:0] temp_addr,
+	output logic signed[31:0] temp_data,
+	output logic     			  temp_wren,
+	output logic 				  ready
+);
+
+	// temporary variable
+	logic signed [31:0] data [4];
+	logic signed [31:0] result;
+	logic 		 [13:0] data_base_addr;
+	integer counter_step, counter_data, counter_batch;
+	
+	max max0(.data1(data[0]), .data2(data[1]), .data3(data[2]), .data4(data[3]), .result);
+	// input address
+	assign data_base_addr = counter_batch*784 + counter_step/14*28*2 + counter_step%14*2;
+	assign data_addr = data_base_addr + counter_data/2*28 + counter_data%2;
+	// output address
+	assign temp_addr = counter_batch * 196 + counter_step;
+	assign temp_data = result;
+	
+	enum logic [4:0] {IDLE, CHECK_BATCH, LOAD_WEIGHT, LOAD_BIAS, CHECK_STEP,
+							LOAD_DATA, SAVE_RESULT, DONE} state;
+	
+	always_ff@(posedge Clk)
+	begin
+		if(Reset)begin
+			state <= IDLE;
+			counter_batch 	<= 0;
+			counter_data 	<= 0;
+			counter_step 	<= 0;
+		end else begin
+			case(state)
+				IDLE:
+					if(start)
+						state <= CHECK_BATCH;
+						
+				CHECK_BATCH:
+					if(counter_batch == 6) // avoid using comparison
+						state <= DONE;
+					else begin
+						state <= CHECK_STEP;
+					end
+				
+				CHECK_STEP:
+					if(counter_step == 196)begin
+						counter_step <= 0;
+						counter_batch <= counter_batch + 1;
+						state <= CHECK_BATCH;
+					end else 
+						state <= LOAD_DATA;
+				
+				LOAD_DATA:begin
+					if(counter_data == 4)begin
+						counter_data <= 0;
+						state <= SAVE_RESULT;
+					end else begin
+						data[counter_data] <= curdata;
+						counter_data <= counter_data + 1;
+					end
+				end
+				
+				SAVE_RESULT:begin
+					counter_step <= counter_step + 1;
+					state <= CHECK_STEP;
+				end
+				
+				DONE:begin
+					counter_batch <= 0;
+					state <= IDLE;
+				end
+		
+			endcase
+		end
+	end
+	
+	always_comb
+	begin
+		temp_wren = 1'b0;
+		ready = 1'b0;
+		case(state)
+			SAVE_RESULT:
+				temp_wren = 1'b1;
+				
+			DONE:
+				ready = 1'b1;
+				
+			default:;
+		
+		endcase
+	
+	end
+
+endmodule

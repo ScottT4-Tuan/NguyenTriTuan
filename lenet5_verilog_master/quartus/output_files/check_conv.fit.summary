@@ -1,0 +1,22 @@
+Fitter Status : Failed - Sat Apr  5 15:05:07 2025
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : check_conv
+Top-level Entity Name : conv55_16
+Family : Cyclone V
+Device : 5CSXFC6D6F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 8,897 / 41,910 ( 21 % )
+  * Logic utilization warning : A large number of ALMs contain virtual pins and count towards logic utilization
+  * ALMs containing virtual pins : 1,942 / 41,910 ( 5 % )
+Total registers : 2752
+Total pins : 0 / 499 ( 0 % )
+Total virtual pins : 3,882
+Total block memory bits : 0 / 5,662,720 ( 0 % )
+Total RAM Blocks : 0 / 553 ( 0 % )
+Total DSP Blocks : 112 / 112 ( 100 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 0 / 15 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

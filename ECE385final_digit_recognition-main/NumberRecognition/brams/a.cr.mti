@@ -1,0 +1,145 @@
+D:/ECE385final_digit_recognition-main/NumberRecognition/kernel_1x5x5.sv {2 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/kernel_1x5x5.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module kernel_1x5x5
+** Warning: D:/ECE385final_digit_recognition-main/NumberRecognition/kernel_1x5x5.sv(2): (vlog-13314) Defaulting port 'data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/ECE385final_digit_recognition-main/NumberRecognition/kernel_1x5x5.sv(3): (vlog-13314) Defaulting port 'weight' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	kernel_1x5x5
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv2_bias.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv2_bias.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bram_conv1_bias
+
+Top level modules:
+	bram_conv1_bias
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/framebuffer.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/framebuffer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module framebuffer
+
+Top level modules:
+	framebuffer
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/max.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/max.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module max
+
+Top level modules:
+	max
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/pooling_2.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/pooling_2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pooling_2
+
+Top level modules:
+	pooling_2
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_4.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fullyconnect_4
+
+Top level modules:
+	fullyconnect_4
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_2.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module convolution_2
+
+Top level modules:
+	convolution_2
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/ram/sample_data_ram.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/ram/sample_data_ram.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sample_data_ram
+
+Top level modules:
+	sample_data_ram
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/ram/intermediate_ram.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/ram/intermediate_ram.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module intermediate_ram
+
+Top level modules:
+	intermediate_ram
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv1_weight.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv1_weight.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bram_conv1_weight
+
+Top level modules:
+	bram_conv1_weight
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv2_weight.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv2_weight.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bram_conv1_bias
+
+Top level modules:
+	bram_conv1_bias
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/find_max.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/find_max.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module find_max
+
+Top level modules:
+	find_max
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/convKernel.sv {2 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/convKernel.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module convKernel
+** Warning: D:/ECE385final_digit_recognition-main/NumberRecognition/convKernel.sv(10): (vlog-13314) Defaulting port 'data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/ECE385final_digit_recognition-main/NumberRecognition/convKernel.sv(11): (vlog-13314) Defaulting port 'weight' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	convKernel
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/pooling_1.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/pooling_1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pooling_1
+
+Top level modules:
+	pooling_1
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/LeNet.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/LeNet.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LeNet
+
+Top level modules:
+	LeNet
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_1.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module convolution_1
+
+Top level modules:
+	convolution_1
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/Mult.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/Mult.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mult
+
+Top level modules:
+	Mult
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_5.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_5.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fullyconnect_5
+
+Top level modules:
+	fullyconnect_5
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_3.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module convolution_3
+
+Top level modules:
+	convolution_3
+
+} {} {}} D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv1_bias.sv {1 {vlog -work work -sv -stats=none D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv1_bias.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bram_conv1_bias
+
+Top level modules:
+	bram_conv1_bias
+
+} {} {}}

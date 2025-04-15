@@ -1,0 +1,116 @@
+
+State Machine - |final_toplevel|LeNet:net|convolution_2:c2|state
+Name state.DONE state.SAVE_RESULT state.RELU state.ACCUMULATE state.CHECK_LEVEL state.CHECK_STEP state.LOAD state.LOAD_BIAS state.CHECK_BATCH state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 
+state.CHECK_BATCH 0 0 0 0 0 0 0 0 1 1 
+state.LOAD_BIAS 0 0 0 0 0 0 0 1 0 1 
+state.LOAD 0 0 0 0 0 0 1 0 0 1 
+state.CHECK_STEP 0 0 0 0 0 1 0 0 0 1 
+state.CHECK_LEVEL 0 0 0 0 1 0 0 0 0 1 
+state.ACCUMULATE 0 0 0 1 0 0 0 0 0 1 
+state.RELU 0 0 1 0 0 0 0 0 0 1 
+state.SAVE_RESULT 0 1 0 0 0 0 0 0 0 1 
+state.DONE 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |final_toplevel|LeNet:net|convolution_3:c3|state
+Name state.DONE state.SAVE_RESULT state.RELU state.ACCUMULATE state.CHECK_LEVEL state.CHECK_STEP state.LOAD state.LOAD_BIAS state.CHECK_BATCH state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 
+state.CHECK_BATCH 0 0 0 0 0 0 0 0 1 1 
+state.LOAD_BIAS 0 0 0 0 0 0 0 1 0 1 
+state.LOAD 0 0 0 0 0 0 1 0 0 1 
+state.CHECK_STEP 0 0 0 0 0 1 0 0 0 1 
+state.CHECK_LEVEL 0 0 0 0 1 0 0 0 0 1 
+state.ACCUMULATE 0 0 0 1 0 0 0 0 0 1 
+state.RELU 0 0 1 0 0 0 0 0 0 1 
+state.SAVE_RESULT 0 1 0 0 0 0 0 0 0 1 
+state.DONE 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |final_toplevel|LeNet:net|fullyconnect_5:f5|state
+Name state.SAVE_RESULT state.ACCUMULATE state.CHECK_STEP state.LOAD state.LOAD_BIAS state.CHECK_NEURON state.IDLE state.DONE 
+state.IDLE 0 0 0 0 0 0 0 0 
+state.CHECK_NEURON 0 0 0 0 0 1 1 0 
+state.LOAD_BIAS 0 0 0 0 1 0 1 0 
+state.LOAD 0 0 0 1 0 0 1 0 
+state.CHECK_STEP 0 0 1 0 0 0 1 0 
+state.ACCUMULATE 0 1 0 0 0 0 1 0 
+state.SAVE_RESULT 1 0 0 0 0 0 1 0 
+state.DONE 0 0 0 0 0 0 1 1 
+
+State Machine - |final_toplevel|LeNet:net|fullyconnect_4:f4|state
+Name state.SAVE_RESULT state.RELU state.ACCUMULATE state.CHECK_STEP state.LOAD state.LOAD_BIAS state.CHECK_NEURON state.IDLE state.DONE 
+state.IDLE 0 0 0 0 0 0 0 0 0 
+state.CHECK_NEURON 0 0 0 0 0 0 1 1 0 
+state.LOAD_BIAS 0 0 0 0 0 1 0 1 0 
+state.LOAD 0 0 0 0 1 0 0 1 0 
+state.CHECK_STEP 0 0 0 1 0 0 0 1 0 
+state.ACCUMULATE 0 0 1 0 0 0 0 1 0 
+state.RELU 0 1 0 0 0 0 0 1 0 
+state.SAVE_RESULT 1 0 0 0 0 0 0 1 0 
+state.DONE 0 0 0 0 0 0 0 1 1 
+
+State Machine - |final_toplevel|LeNet:net|find_max:infer|state
+Name state.DONE state.COMPARE state.CHECK_STEP state.IDLE 
+state.IDLE 0 0 0 0 
+state.CHECK_STEP 0 0 1 1 
+state.COMPARE 0 1 0 1 
+state.DONE 1 0 0 1 
+
+State Machine - |final_toplevel|LeNet:net|pooling_2:s2|state
+Name state.DONE state.SAVE_RESULT state.LOAD_DATA state.CHECK_STEP state.CHECK_BATCH state.IDLE 
+state.IDLE 0 0 0 0 0 0 
+state.CHECK_BATCH 0 0 0 0 1 1 
+state.CHECK_STEP 0 0 0 1 0 1 
+state.LOAD_DATA 0 0 1 0 0 1 
+state.SAVE_RESULT 0 1 0 0 0 1 
+state.DONE 1 0 0 0 0 1 
+
+State Machine - |final_toplevel|LeNet:net|pooling_1:s1|state
+Name state.DONE state.SAVE_RESULT state.LOAD_DATA state.CHECK_STEP state.CHECK_BATCH state.IDLE 
+state.IDLE 0 0 0 0 0 0 
+state.CHECK_BATCH 0 0 0 0 1 1 
+state.CHECK_STEP 0 0 0 1 0 1 
+state.LOAD_DATA 0 0 1 0 0 1 
+state.SAVE_RESULT 0 1 0 0 0 1 
+state.DONE 1 0 0 0 0 1 
+
+State Machine - |final_toplevel|LeNet:net|state
+Name state.DEBUG state.DONE state.INFERENCE state.F5 state.F4 state.CONV3 state.S2 state.CONV2 state.S1 state.CONV1 state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 0 
+state.CONV1 0 0 0 0 0 0 0 0 0 1 1 
+state.S1 0 0 0 0 0 0 0 0 1 0 1 
+state.CONV2 0 0 0 0 0 0 0 1 0 0 1 
+state.S2 0 0 0 0 0 0 1 0 0 0 1 
+state.CONV3 0 0 0 0 0 1 0 0 0 0 1 
+state.F4 0 0 0 0 1 0 0 0 0 0 1 
+state.F5 0 0 0 1 0 0 0 0 0 0 1 
+state.INFERENCE 0 0 1 0 0 0 0 0 0 0 1 
+state.DONE 0 1 0 0 0 0 0 0 0 0 1 
+state.DEBUG 1 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |final_toplevel|LeNet:net|convolution_1:c1|state
+Name state.DONE state.SAVE_RESULT state.LOAD_DATA state.CHECK_STEP state.LOAD_BIAS state.LOAD_WEIGHT state.CHECK_BATCH state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 
+state.CHECK_BATCH 0 0 0 0 0 0 1 1 
+state.LOAD_WEIGHT 0 0 0 0 0 1 0 1 
+state.LOAD_BIAS 0 0 0 0 1 0 0 1 
+state.CHECK_STEP 0 0 0 1 0 0 0 1 
+state.LOAD_DATA 0 0 1 0 0 0 0 1 
+state.SAVE_RESULT 0 1 0 0 0 0 0 1 
+state.DONE 1 0 0 0 0 0 0 1 
+
+State Machine - |final_toplevel|state
+Name state.DEBUG state.DONE state.INFERENCE state.WAIT_FRAME state.CHECK_SECOND state.IDLE state.CONFIG_DONE state.CONFIG 
+state.CONFIG 0 0 0 0 0 0 0 0 
+state.CONFIG_DONE 0 0 0 0 0 0 1 1 
+state.IDLE 0 0 0 0 0 1 0 1 
+state.CHECK_SECOND 0 0 0 0 1 0 0 1 
+state.WAIT_FRAME 0 0 0 1 0 0 0 1 
+state.INFERENCE 0 0 1 0 0 0 0 1 
+state.DONE 0 1 0 0 0 0 0 1 
+state.DEBUG 1 0 0 0 0 0 0 1 
+
+State Machine - |final_toplevel|Retrieve_Data:inst_retrieve_data|state
+Name state.LOAD state.IDLE state.DONE 
+state.IDLE 0 0 0 
+state.LOAD 1 1 0 
+state.DONE 0 1 1 

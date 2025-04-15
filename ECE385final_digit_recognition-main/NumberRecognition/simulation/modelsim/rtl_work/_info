@@ -1,0 +1,1054 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Projects/ECE385Labs/final/final_code/simulation/modelsim
+vaddress_generator
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1608799869
+!i10b 1
+!s100 36K8g910_We]_<9CmXA@A3
+I^E^SMEG?_3cR5_jRZNkaJ0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 address_generator_sv_unit
+S1
+R0
+w1608202251
+8D:/Projects/ECE385Labs/final/final_code/address_generator.sv
+FD:/Projects/ECE385Labs/final/final_code/address_generator.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1608799869.000000
+!s107 D:/Projects/ECE385Labs/final/final_code/address_generator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/address_generator.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code
+Z8 tCvgOpt 0
+vc1_bias_ram
+R1
+R2
+!i10b 1
+!s100 VaXUj^=gH46_XJ[hm?i1K3
+IBio6fFh_>K4_hWOf4d9_53
+R3
+!s105 c1_bias_ram_sv_unit
+S1
+R0
+w1608606674
+8D:/Projects/ECE385Labs/final/final_code/ram/c1_bias_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/c1_bias_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/c1_bias_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/c1_bias_ram.sv|
+!i113 1
+R6
+Z9 !s92 -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram
+R8
+vc1_weight_ram
+R1
+R2
+!i10b 1
+!s100 _3B5LM5K`Z20Fe]ZOhFC]3
+IafhJd]ZU[Lb5Y0hW7?`^<3
+R3
+!s105 c1_weight_ram_sv_unit
+S1
+R0
+w1608606651
+8D:/Projects/ECE385Labs/final/final_code/ram/c1_weight_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/c1_weight_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/c1_weight_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/c1_weight_ram.sv|
+!i113 1
+R6
+R9
+R8
+vc2_bias_ram
+R1
+Z10 !s110 1608799870
+!i10b 1
+!s100 TAIQ=_M2hQ8WEYA:3Jza90
+Io0Eog]>IFOSIZE>VTDWYP3
+R3
+!s105 c2_bias_ram_sv_unit
+S1
+R0
+w1608625342
+8D:/Projects/ECE385Labs/final/final_code/ram/c2_bias_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/c2_bias_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z11 !s108 1608799870.000000
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/c2_bias_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/c2_bias_ram.sv|
+!i113 1
+R6
+R9
+R8
+vc2_weight_ram
+R1
+R2
+!i10b 1
+!s100 VP>[2M=Uaz8R?je;e_:Ri3
+IEGlhY?h]7Bm>YRP8QDcWI3
+R3
+!s105 c2_weight_ram_sv_unit
+S1
+R0
+w1608625289
+8D:/Projects/ECE385Labs/final/final_code/ram/c2_weight_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/c2_weight_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/c2_weight_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/c2_weight_ram.sv|
+!i113 1
+R6
+R9
+R8
+vc3_bias_ram
+R1
+R10
+!i10b 1
+!s100 KU9Zgli_Q>I5=^l[A]BfK0
+IMQO@J6GMU]NhlhI;eLMK82
+R3
+!s105 c3_bias_ram_sv_unit
+S1
+R0
+w1608698050
+8D:/Projects/ECE385Labs/final/final_code/ram/c3_bias_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/c3_bias_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/c3_bias_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/c3_bias_ram.sv|
+!i113 1
+R6
+R9
+R8
+vc3_weight_ram
+R1
+R10
+!i10b 1
+!s100 EXnanOefmEk;=GmT]M>LR3
+IGXa^If6?_L]A]MKSkL:7O3
+R3
+!s105 c3_weight_ram_sv_unit
+S1
+R0
+w1608695317
+8D:/Projects/ECE385Labs/final/final_code/ram/c3_weight_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/c3_weight_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/c3_weight_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/c3_weight_ram.sv|
+!i113 1
+R6
+R9
+R8
+vColor_Mapper
+R1
+Z12 !s110 1608799868
+!i10b 1
+!s100 GXWFSm0WnD7z[1oeXSA@^3
+IGOk0oIUQY9:7>^jIOkFge2
+R3
+!s105 Color_Mapper_sv_unit
+S1
+R0
+w1608731035
+8D:/Projects/ECE385Labs/final/final_code/Color_Mapper.sv
+FD:/Projects/ECE385Labs/final/final_code/Color_Mapper.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z13 !s108 1608799868.000000
+!s107 D:/Projects/ECE385Labs/final/final_code/Color_Mapper.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/Color_Mapper.sv|
+!i113 1
+R6
+R7
+R8
+n@color_@mapper
+vconvolution_1
+R1
+R10
+!i10b 1
+!s100 >bbjo;fQnSa_MZh]Vc^Wl0
+Ia7[aFDH=Sk5=gZbBMA32W3
+R3
+!s105 convolution_1_sv_unit
+S1
+R0
+w1608643631
+8D:/Projects/ECE385Labs/final/final_code/convolution_1.sv
+FD:/Projects/ECE385Labs/final/final_code/convolution_1.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/convolution_1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/convolution_1.sv|
+!i113 1
+R6
+R7
+R8
+vconvolution_2
+R1
+R10
+!i10b 1
+!s100 Q7@N8lT3lC<i595e4VY[g3
+I<n=;?;WJmSdP^>>R_0eHI0
+R3
+!s105 convolution_2_sv_unit
+S1
+R0
+w1608707306
+8D:/Projects/ECE385Labs/final/final_code/convolution_2.sv
+FD:/Projects/ECE385Labs/final/final_code/convolution_2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/convolution_2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/convolution_2.sv|
+!i113 1
+R6
+R7
+R8
+vconvolution_3
+R1
+R10
+!i10b 1
+!s100 FT1Tb>??YQE3a4OB<hL9z3
+I]FHgoKcA`NE_BTg7?zZQ81
+R3
+!s105 convolution_3_sv_unit
+S1
+R0
+w1608707320
+8D:/Projects/ECE385Labs/final/final_code/convolution_3.sv
+FD:/Projects/ECE385Labs/final/final_code/convolution_3.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/convolution_3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/convolution_3.sv|
+!i113 1
+R6
+R7
+R8
+vf4_bias_ram
+R1
+R10
+!i10b 1
+!s100 bPLhX`lBRQPOj;AMN5^kn3
+IF4]=QdjMfW0R<LFm3]PcR0
+R3
+!s105 f4_bias_ram_sv_unit
+S1
+R0
+w1608707029
+8D:/Projects/ECE385Labs/final/final_code/ram/f4_bias_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/f4_bias_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/f4_bias_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/f4_bias_ram.sv|
+!i113 1
+R6
+R9
+R8
+vf4_weight_ram
+R1
+R10
+!i10b 1
+!s100 V6zgXljR?5?>[g6UcaF=G2
+I_?lImWFAgn;C=EA00?EGF3
+R3
+!s105 f4_weight_ram_sv_unit
+S1
+R0
+w1608706989
+8D:/Projects/ECE385Labs/final/final_code/ram/f4_weight_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/f4_weight_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/f4_weight_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/f4_weight_ram.sv|
+!i113 1
+R6
+R9
+R8
+vf5_bias_ram
+R1
+R10
+!i10b 1
+!s100 =Wg6?^QRDk`o?HWaTVEJb2
+IaOKa[ZE<jON8@De4[W;@S1
+R3
+!s105 f5_bias_ram_sv_unit
+S1
+R0
+w1608712893
+8D:/Projects/ECE385Labs/final/final_code/ram/f5_bias_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/f5_bias_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/f5_bias_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/f5_bias_ram.sv|
+!i113 1
+R6
+R9
+R8
+vf5_weight_ram
+R1
+R10
+!i10b 1
+!s100 B3@b=ToVVlE[<>m[oQVAU1
+IfGAD`f1SD62mfJC5L73j33
+R3
+!s105 f5_weight_ram_sv_unit
+S1
+R0
+w1608715609
+8D:/Projects/ECE385Labs/final/final_code/ram/f5_weight_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/f5_weight_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/f5_weight_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/f5_weight_ram.sv|
+!i113 1
+R6
+R9
+R8
+vfinal_toplevel
+R1
+R10
+!i10b 1
+!s100 mflVLe[kO8HW?T:55K[;k1
+I]SMCXLTG]]^IhCWP9QKRf0
+R3
+!s105 final_toplevel_sv_unit
+S1
+R0
+w1608799047
+8D:/Projects/ECE385Labs/final/final_code/final_toplevel.sv
+FD:/Projects/ECE385Labs/final/final_code/final_toplevel.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/final_toplevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/final_toplevel.sv|
+!i113 1
+R6
+R7
+R8
+vfind_max
+R1
+R2
+!i10b 1
+!s100 Q7d6ajBT5?l2dY=6^9Q=A0
+IMPD91K;iD2IFDcJj_QBVa2
+R3
+!s105 find_max_sv_unit
+S1
+R0
+w1608732967
+8D:/Projects/ECE385Labs/final/final_code/find_max.sv
+FD:/Projects/ECE385Labs/final/final_code/find_max.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/find_max.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/find_max.sv|
+!i113 1
+R6
+R7
+R8
+vfont_rom
+R1
+R12
+!i10b 1
+!s100 8ig`fR]LPB0lo9fL9715Q0
+IB=1SHGT2L8W;X2LK4TikF0
+R3
+!s105 font_rom_sv_unit
+S1
+R0
+w1608365927
+8D:/Projects/ECE385Labs/final/final_code/font_rom.sv
+FD:/Projects/ECE385Labs/final/final_code/font_rom.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R13
+!s107 D:/Projects/ECE385Labs/final/final_code/font_rom.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/font_rom.sv|
+!i113 1
+R6
+R7
+R8
+vframebuffer
+R1
+R2
+!i10b 1
+!s100 J8G5ilo4<FeAYP<0`Sahd1
+IXoiAzMFTTmX4Ck3H?mWL32
+R3
+!s105 framebuffer_sv_unit
+S1
+R0
+w1608280674
+8D:/Projects/ECE385Labs/final/final_code/framebuffer.sv
+FD:/Projects/ECE385Labs/final/final_code/framebuffer.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/framebuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/framebuffer.sv|
+!i113 1
+R6
+R7
+R8
+vfullyconnect_4
+R1
+R2
+!i10b 1
+!s100 gQUWAH5nlN<4^`4FjRTBE2
+IXJTBWFPlf@b0bA[2P:_gQ1
+R3
+!s105 fullyconnect_4_sv_unit
+S1
+R0
+w1608712330
+8D:/Projects/ECE385Labs/final/final_code/fullyconnect_4.sv
+FD:/Projects/ECE385Labs/final/final_code/fullyconnect_4.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/fullyconnect_4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/fullyconnect_4.sv|
+!i113 1
+R6
+R7
+R8
+vfullyconnect_5
+R1
+R2
+!i10b 1
+!s100 BoXnFB]=kd=1QOQ?BRkSW3
+IL?=`9JIVC4zKoWJ@i9O823
+R3
+!s105 fullyconnect_5_sv_unit
+S1
+R0
+w1608728985
+8D:/Projects/ECE385Labs/final/final_code/fullyconnect_5.sv
+FD:/Projects/ECE385Labs/final/final_code/fullyconnect_5.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/fullyconnect_5.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/fullyconnect_5.sv|
+!i113 1
+R6
+R7
+R8
+vHexDriver
+R1
+R12
+!i10b 1
+!s100 hKBo4zbCRmY3[Ac9JZP;<0
+I`YSQR28lHIdEFI8f2VfZ_0
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1443474828
+8D:/Projects/ECE385Labs/final/final_code/HexDriver.sv
+FD:/Projects/ECE385Labs/final/final_code/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R13
+!s107 D:/Projects/ECE385Labs/final/final_code/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/HexDriver.sv|
+!i113 1
+R6
+R7
+R8
+n@hex@driver
+Ei2c_sender
+Z14 w1422882336
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z16 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z17 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z18 8D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd
+Z19 FD:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd
+l0
+L9
+VARQO`E1l9FDKgOT<b44W63
+!s100 0;WYY6L]QOl_on3gW_d]]0
+Z20 OV;C;10.5b;63
+31
+Z21 !s110 1608799871
+!i10b 1
+Z22 !s108 1608799871.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd|
+Z24 !s107 D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd|
+!i113 1
+Z25 o-93 -work work
+Z26 tExplicit 1 CvgOpt 0
+Abehavioral
+R15
+R16
+R17
+DEx4 work 10 i2c_sender 0 22 ARQO`E1l9FDKgOT<b44W63
+l27
+L21
+V@ei;bB`dgOeM<b:AnInZ?0
+!s100 [F7aX@CZa@LDH0?zcZB3G1
+R20
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R25
+R26
+vintermediate_ram
+R1
+R2
+!i10b 1
+!s100 `bQU[H<f:nfLkaOCMGcEP1
+IiXi1dY[;OP?z`PaX3ULdZ0
+R3
+!s105 intermediate_ram_sv_unit
+S1
+R0
+w1608625681
+8D:/Projects/ECE385Labs/final/final_code/ram/intermediate_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/intermediate_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/intermediate_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/intermediate_ram.sv|
+!i113 1
+R6
+R9
+R8
+vkernel_1x5x5
+R1
+R2
+!i10b 1
+!s100 LlD7:9=R]NYLA`NSO?HS11
+IOVa3WJFQemkY5PYl5JGLY1
+R3
+!s105 kernel_1x5x5_sv_unit
+S1
+R0
+w1607765209
+8D:/Projects/ECE385Labs/final/final_code/kernel_1x5x5.sv
+FD:/Projects/ECE385Labs/final/final_code/kernel_1x5x5.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/kernel_1x5x5.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/kernel_1x5x5.sv|
+!i113 1
+R6
+R7
+R8
+vLeNet
+R1
+R10
+!i10b 1
+!s100 `4PcMI^g<]zd0F^V[OL:G2
+IYo87@::Pc?d`LoQ^5NH_50
+R3
+!s105 LeNet_sv_unit
+S1
+R0
+w1608731932
+8D:/Projects/ECE385Labs/final/final_code/LeNet.sv
+FD:/Projects/ECE385Labs/final/final_code/LeNet.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/LeNet.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/LeNet.sv|
+!i113 1
+R6
+R7
+R8
+n@le@net
+vmax
+R1
+R2
+!i10b 1
+!s100 d5[oI0agZHEhGA1PGFeRS3
+Ihl9gXLDk4hMCeQ>e;X>`?1
+R3
+!s105 max_sv_unit
+S1
+R0
+w1608452248
+8D:/Projects/ECE385Labs/final/final_code/max.sv
+FD:/Projects/ECE385Labs/final/final_code/max.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/max.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/max.sv|
+!i113 1
+R6
+R7
+R8
+vMult
+R1
+R2
+!i10b 1
+!s100 j;G]Ml6eBN0ZL@Nh7kK=O1
+IfMR>^c79QUEokFOhJbAHk2
+R3
+!s105 Mult_sv_unit
+S1
+R0
+w1608463132
+8D:/Projects/ECE385Labs/final/final_code/Mult.sv
+FD:/Projects/ECE385Labs/final/final_code/Mult.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/Mult.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/Mult.sv|
+!i113 1
+R6
+R7
+R8
+n@mult
+vov7670_capture
+R1
+R2
+!i10b 1
+!s100 RMf?dh^iL>b>h3m`iW6Lm3
+IM[dZSMz=JP[[7>:RjONhQ3
+R3
+!s105 ov7670_capture_sv_unit
+S1
+R0
+w1608209055
+8D:/Projects/ECE385Labs/final/final_code/camera/ov7670_capture.sv
+FD:/Projects/ECE385Labs/final/final_code/camera/ov7670_capture.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/camera/ov7670_capture.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/camera|D:/Projects/ECE385Labs/final/final_code/camera/ov7670_capture.sv|
+!i113 1
+R6
+!s92 -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/camera
+R8
+Eov7670_controller
+Z27 w1422882292
+R15
+R16
+R17
+R0
+Z28 8D:/Projects/ECE385Labs/final/final_code/camera/ov7670_controller.vhd
+Z29 FD:/Projects/ECE385Labs/final/final_code/camera/ov7670_controller.vhd
+l0
+L9
+V_Q5Jbi0_go8NHz0mSf8Hj3
+!s100 OE_fiK>fH>2:3M<j7R_Bd1
+R20
+31
+R21
+!i10b 1
+R22
+Z30 !s90 -reportprogress|300|-93|-work|work|D:/Projects/ECE385Labs/final/final_code/camera/ov7670_controller.vhd|
+Z31 !s107 D:/Projects/ECE385Labs/final/final_code/camera/ov7670_controller.vhd|
+!i113 1
+R25
+R26
+Abehavioral
+R15
+R16
+R17
+DEx4 work 17 ov7670_controller 0 22 _Q5Jbi0_go8NHz0mSf8Hj3
+l57
+L22
+V=2b2ELz>:BlWCG^mlUC^73
+!s100 hQSh7U@>YFHk70icRhQOI3
+R20
+31
+R21
+!i10b 1
+R22
+R30
+R31
+!i113 1
+R25
+R26
+Eov7670_registers
+Z32 w1422882276
+R15
+R16
+R17
+R0
+Z33 8D:/Projects/ECE385Labs/final/final_code/camera/ov7670_registers.vhd
+Z34 FD:/Projects/ECE385Labs/final/final_code/camera/ov7670_registers.vhd
+l0
+L23
+VOIgAY6nMU9aDV>RCTdzQ<1
+!s100 g25iV<6fZ0ef35P2kkJ:h0
+R20
+31
+R10
+!i10b 1
+R11
+Z35 !s90 -reportprogress|300|-93|-work|work|D:/Projects/ECE385Labs/final/final_code/camera/ov7670_registers.vhd|
+Z36 !s107 D:/Projects/ECE385Labs/final/final_code/camera/ov7670_registers.vhd|
+!i113 1
+R25
+R26
+Abehavioral
+R15
+R16
+R17
+DEx4 work 16 ov7670_registers 0 22 OIgAY6nMU9aDV>RCTdzQ<1
+l36
+L31
+VH6`LaTdoC77WZAmAf9<4i1
+!s100 25[n?bSOdHR_<b8fJeVhk3
+R20
+31
+R10
+!i10b 1
+R11
+R35
+R36
+!i113 1
+R25
+R26
+vpooling_1
+R1
+R10
+!i10b 1
+!s100 z:FY8;653gHWH:o8R^ZON2
+INl@>h]bYlZl@;]Mjn7hdR3
+R3
+!s105 pooling_1_sv_unit
+S1
+R0
+w1608643439
+8D:/Projects/ECE385Labs/final/final_code/pooling_1.sv
+FD:/Projects/ECE385Labs/final/final_code/pooling_1.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/pooling_1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/pooling_1.sv|
+!i113 1
+R6
+R7
+R8
+vpooling_2
+R1
+R10
+!i10b 1
+!s100 5`NmkNCU;SJBIT5Ce3g3H3
+I<>e^P6ACmYo9gN5<b8QU11
+R3
+!s105 pooling_2_sv_unit
+S1
+R0
+w1608692221
+8D:/Projects/ECE385Labs/final/final_code/pooling_2.sv
+FD:/Projects/ECE385Labs/final/final_code/pooling_2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Projects/ECE385Labs/final/final_code/pooling_2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/pooling_2.sv|
+!i113 1
+R6
+R7
+R8
+vram_dual_port
+R12
+!i10b 1
+!s100 b?IMCc^W[AzHeXm6CKIC]0
+I4??[;_T5BUO:JMdB<N0<F2
+R3
+R0
+w1608118962
+8D:/Projects/ECE385Labs/final/final_code/ram_dual_port.v
+FD:/Projects/ECE385Labs/final/final_code/ram_dual_port.v
+Z37 L0 39
+R4
+r1
+!s85 0
+31
+R13
+!s107 D:/Projects/ECE385Labs/final/final_code/ram_dual_port.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/ram_dual_port.v|
+!i113 1
+Z38 o-vlog01compat -work work
+Z39 !s92 -vlog01compat -work work +incdir+D:/Projects/ECE385Labs/final/final_code
+R8
+vrgb2gray
+R1
+R2
+!i10b 1
+!s100 ]PC_0bDfGg=PJ6kLIjMV<0
+I02dEDAnhblQN19zZlfALR3
+R3
+!s105 rgb2gray_sv_unit
+S1
+R0
+w1608262307
+8D:/Projects/ECE385Labs/final/final_code/rgb2gray.sv
+FD:/Projects/ECE385Labs/final/final_code/rgb2gray.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/rgb2gray.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/rgb2gray.sv|
+!i113 1
+R6
+R7
+R8
+vsample_data_ram
+R1
+R2
+!i10b 1
+!s100 4MZ5ORlcWKD:0gN^KThJG2
+I_=nkaMaFOmT>9_Ob:cA=l1
+R3
+!s105 sample_data_ram_sv_unit
+S1
+R0
+w1608798430
+8D:/Projects/ECE385Labs/final/final_code/ram/sample_data_ram.sv
+FD:/Projects/ECE385Labs/final/final_code/ram/sample_data_ram.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Projects/ECE385Labs/final/final_code/ram/sample_data_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/ram|D:/Projects/ECE385Labs/final/final_code/ram/sample_data_ram.sv|
+!i113 1
+R6
+R9
+R8
+vtestbench_convolution1
+R1
+R21
+!i10b 1
+!s100 aT^WkZ5LG<06_7PT2heeX3
+I<8HAJ]Ok7je`N>c0QkNNF2
+R3
+!s105 testbench_convolution1_sv_unit
+S1
+R0
+w1608799855
+8D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv
+FD:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R22
+!s107 D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv|
+!i113 1
+R6
+R7
+R8
+vvga_clock
+R12
+!i10b 1
+!s100 `HK]CZ0IHSTW_A=4LzY>k0
+IzF^h@kl[oF9dG^hn]hRN[2
+R3
+R0
+w1607336180
+8D:/Projects/ECE385Labs/final/final_code/vga_clock.v
+FD:/Projects/ECE385Labs/final/final_code/vga_clock.v
+R37
+R4
+r1
+!s85 0
+31
+R13
+!s107 D:/Projects/ECE385Labs/final/final_code/vga_clock.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/vga_clock.v|
+!i113 1
+R38
+R39
+R8
+vvga_clock_altpll
+R12
+!i10b 1
+!s100 `0C3MmYmjYDDXMgk0aWzG0
+I0eSF0>PPOhzoz2E_Z9R_g0
+R3
+R0
+w1608715436
+8D:/Projects/ECE385Labs/final/final_code/db/vga_clock_altpll.v
+FD:/Projects/ECE385Labs/final/final_code/db/vga_clock_altpll.v
+L0 29
+R4
+r1
+!s85 0
+31
+R13
+!s107 D:/Projects/ECE385Labs/final/final_code/db/vga_clock_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code/db|D:/Projects/ECE385Labs/final/final_code/db/vga_clock_altpll.v|
+!i113 1
+R38
+!s92 -vlog01compat -work work +incdir+D:/Projects/ECE385Labs/final/final_code/db
+R8
+vVGA_controller
+R1
+R12
+!i10b 1
+!s100 7>=kR7Y1hn]6;X;5ZbGF52
+I<UNfiXP4z4iM7MUBh5GgZ1
+R3
+!s105 VGA_controller_sv_unit
+S1
+R0
+w1608303458
+8D:/Projects/ECE385Labs/final/final_code/VGA_controller.sv
+FD:/Projects/ECE385Labs/final/final_code/VGA_controller.sv
+L0 26
+R4
+r1
+!s85 0
+31
+R13
+!s107 D:/Projects/ECE385Labs/final/final_code/VGA_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Projects/ECE385Labs/final/final_code|D:/Projects/ECE385Labs/final/final_code/VGA_controller.sv|
+!i113 1
+R6
+R7
+R8
+n@v@g@a_controller

@@ -1,0 +1,9 @@
+module max #(
+	Bitwidth = 32,
+	Channel = 6
+)(
+	input logic signed [Bitwidth-1 : 0] data [6*4];
+);
+	
+
+endmodule

@@ -1,0 +1,124 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2022  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+# Date created = 14:15:39  April 05, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		check_conv_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY t_lenet5
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:15:39  APRIL 05, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_DATA15_THROUGH_DATA8_AFTER_CONFIGURATION "AS OUTPUT DRIVING AN UNSPECIFIED SIGNAL"
+set_global_assignment -name RESERVE_DATA7_THROUGH_DATA5_AFTER_CONFIGURATION "AS OUTPUT DRIVING AN UNSPECIFIED SIGNAL"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name ACTIVE_SERIAL_CLOCK FREQ_100MHZ
+set_global_assignment -name BOARD "Cyclone V SoCKit"
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name SOURCE_FILE ../weights_out7.list
+set_global_assignment -name SOURCE_FILE ../weights_f6.list
+set_global_assignment -name SOURCE_FILE ../kernel_c5_1.list
+set_global_assignment -name SOURCE_FILE ../kernel_c5_0.list
+set_global_assignment -name SOURCE_FILE ../kernel_c3_x6.list
+set_global_assignment -name SOURCE_FILE ../kernel_c3_x4.list
+set_global_assignment -name SOURCE_FILE ../kernel_c3_x3.list
+set_global_assignment -name SOURCE_FILE ../kernel_c1.list
+set_global_assignment -name SOURCE_FILE ../image32x32.list
+set_global_assignment -name VERILOG_FILE ../src/tb/t_lenet5.v
+set_global_assignment -name VERILOG_FILE ../src/tb/image_reader.v
+set_global_assignment -name VERILOG_FILE ../src/rowbuffer.v
+set_global_assignment -name VERILOG_FILE ../src/row4buffer.v
+set_global_assignment -name VERILOG_FILE ../src/rom_params.v
+set_global_assignment -name VERILOG_FILE ../src/relu.v
+set_global_assignment -name VERILOG_FILE ../src/maxpool22.v
+set_global_assignment -name VERILOG_FILE ../src/max_index_10.v
+set_global_assignment -name VERILOG_FILE ../src/max.v
+set_global_assignment -name VERILOG_FILE ../src/lenet5.v
+set_global_assignment -name VERILOG_FILE ../src/larger_index.v
+set_global_assignment -name VERILOG_FILE ../src/fc_120.v
+set_global_assignment -name VERILOG_FILE ../src/fc_84.v
+set_global_assignment -name VERILOG_FILE ../src/conv556.v
+set_global_assignment -name VERILOG_FILE ../src/conv554.v
+set_global_assignment -name VERILOG_FILE ../src/conv553.v
+set_global_assignment -name VERILOG_FILE ../src/conv55_16.v
+set_global_assignment -name VERILOG_FILE ../src/conv55.v
+set_global_assignment -name VERILOG_FILE ../src/control.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name VIRTUAL_PIN ON -to Add15
+set_instance_assignment -name VIRTUAL_PIN ON -to clk
+set_instance_assignment -name VIRTUAL_PIN ON -to en
+set_instance_assignment -name VIRTUAL_PIN ON -to bias
+set_instance_assignment -name VIRTUAL_PIN ON -to convValue
+set_instance_assignment -name VIRTUAL_PIN ON -to filter
+set_instance_assignment -name VIRTUAL_PIN ON -to in1
+set_instance_assignment -name VIRTUAL_PIN ON -to in2
+set_instance_assignment -name VIRTUAL_PIN ON -to in3
+set_instance_assignment -name VIRTUAL_PIN ON -to in4
+set_instance_assignment -name VIRTUAL_PIN ON -to in5
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[0].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[1].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[2].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[3].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[4].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[5].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[6].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[7].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[8].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[10].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[11].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[12].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[13].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[14].CONV"
+set_instance_assignment -name VIRTUAL_PIN ON -to "conv55:conv_module[15].CONV"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

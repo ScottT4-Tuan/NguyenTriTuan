@@ -1,0 +1,71 @@
+# Compile of control.v was successful.
+# Compile of conv55.v was successful.
+# Compile of conv55_16.v was successful.
+# Compile of conv553.v was successful.
+# Compile of conv554.v was successful.
+# Compile of conv556.v was successful.
+# Compile of fc_84.v was successful.
+# Compile of fc_120.v was successful.
+# Compile of image_reader.v was successful.
+# Compile of larger_index.v was successful.
+# Compile of lenet5.v was successful.
+# Compile of max.v was successful.
+# Compile of max_index_10.v was successful.
+# Compile of maxpool22.v was successful.
+# Compile of relu.v was successful.
+# Compile of rom_params.v was successful.
+# Compile of row4buffer.v was successful.
+# Compile of rowbuffer.v was successful.
+# Compile of t_lenet5.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.t_lenet5
+# vsim -gui work.t_lenet5 
+# Start time: 21:57:56 on Apr 08,2025
+# Loading work.t_lenet5
+# Loading work.image_reader
+# Loading work.lenet5
+# Loading work.row4buffer
+# Loading work.rowbuffer
+# Loading work.control
+# Loading work.rom_params
+# Loading work.conv556
+# Loading work.conv55
+# Loading work.ReLU
+# Loading work.max_index_10
+# Loading work.larger_index
+# Loading work.maxpool22
+# Loading work.max
+# Loading work.conv553
+# Loading work.conv554
+# Loading work.conv55_16
+# Loading work.fc_120
+# Loading work.fc_84
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'idx1'. The port definition is at: D:/Coding/lenet5-verilog-master/modelsim/larger_index.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /t_lenet5/LeNet5/FIND_MAX/larger_comp1[0]/FIND_LARGER_1 File: D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'idx2'. The port definition is at: D:/Coding/lenet5-verilog-master/modelsim/larger_index.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /t_lenet5/LeNet5/FIND_MAX/larger_comp1[0]/FIND_LARGER_1 File: D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'idx1'. The port definition is at: D:/Coding/lenet5-verilog-master/modelsim/larger_index.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /t_lenet5/LeNet5/FIND_MAX/larger_comp1[1]/FIND_LARGER_1 File: D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'idx2'. The port definition is at: D:/Coding/lenet5-verilog-master/modelsim/larger_index.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /t_lenet5/LeNet5/FIND_MAX/larger_comp1[1]/FIND_LARGER_1 File: D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'idx1'. The port definition is at: D:/Coding/lenet5-verilog-master/modelsim/larger_index.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /t_lenet5/LeNet5/FIND_MAX/larger_comp1[2]/FIND_LARGER_1 File: D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'idx2'. The port definition is at: D:/Coding/lenet5-verilog-master/modelsim/larger_index.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /t_lenet5/LeNet5/FIND_MAX/larger_comp1[2]/FIND_LARGER_1 File: D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'idx1'. The port definition is at: D:/Coding/lenet5-verilog-master/modelsim/larger_index.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /t_lenet5/LeNet5/FIND_MAX/larger_comp1[3]/FIND_LARGER_1 File: D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'idx2'. The port definition is at: D:/Coding/lenet5-verilog-master/modelsim/larger_index.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /t_lenet5/LeNet5/FIND_MAX/larger_comp1[3]/FIND_LARGER_1 File: D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'idx1'. The port definition is at: D:/Coding/lenet5-verilog-master/modelsim/larger_index.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /t_lenet5/LeNet5/FIND_MAX/larger_comp1[4]/FIND_LARGER_1 File: D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'idx2'. The port definition is at: D:/Coding/lenet5-verilog-master/modelsim/larger_index.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /t_lenet5/LeNet5/FIND_MAX/larger_comp1[4]/FIND_LARGER_1 File: D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v Line: 29
+add wave -position insertpoint sim:/t_lenet5/*
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "image32x32.list" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/Coding/lenet5-verilog-master/modelsim/image_reader.v(10)
+#    Time: 0 ps  Iteration: 0  Instance: /t_lenet5/R1
+# Break key hit
+# Break in Module rowbuffer at D:/Coding/lenet5-verilog-master/modelsim/rowbuffer.v line 13
+# End time: 22:01:54 on Apr 08,2025, Elapsed time: 0:03:58
+# Errors: 0, Warnings: 14

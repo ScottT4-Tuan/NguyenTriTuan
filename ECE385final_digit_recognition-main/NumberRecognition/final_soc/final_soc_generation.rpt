@@ -1,0 +1,190 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\Projects\ECE385Labs\final\final_code\final_soc.qsys --block-symbol-file --output-directory=D:\Projects\ECE385Labs\final\final_code\final_soc --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading final_code/final_soc.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.0]
+Progress: Parameterizing module clk_0
+Progress: Adding inference [altera_avalon_pio 18.0]
+Progress: Parameterizing module inference
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.0]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding res_0 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_0
+Progress: Adding res_1 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_1
+Progress: Adding res_2 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_2
+Progress: Adding res_3 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_3
+Progress: Adding res_4 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_4
+Progress: Adding res_5 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_5
+Progress: Adding res_6 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_6
+Progress: Adding res_7 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_7
+Progress: Adding res_8 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_8
+Progress: Adding res_9 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_9
+Progress: Adding sdram [altera_avalon_new_sdram_controller 18.0]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 18.0]
+Progress: Parameterizing module sdram_pll
+Progress: Adding sysid [altera_avalon_sysid_qsys 18.0]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: final_soc.res_0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_3: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_4: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_5: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_6: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_7: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_8: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_9: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: final_soc.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: final_soc.sysid: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\Projects\ECE385Labs\final\final_code\final_soc.qsys --synthesis=VERILOG --output-directory=D:\Projects\ECE385Labs\final\final_code\final_soc\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading final_code/final_soc.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.0]
+Progress: Parameterizing module clk_0
+Progress: Adding inference [altera_avalon_pio 18.0]
+Progress: Parameterizing module inference
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.0]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding res_0 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_0
+Progress: Adding res_1 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_1
+Progress: Adding res_2 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_2
+Progress: Adding res_3 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_3
+Progress: Adding res_4 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_4
+Progress: Adding res_5 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_5
+Progress: Adding res_6 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_6
+Progress: Adding res_7 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_7
+Progress: Adding res_8 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_8
+Progress: Adding res_9 [altera_avalon_pio 18.0]
+Progress: Parameterizing module res_9
+Progress: Adding sdram [altera_avalon_new_sdram_controller 18.0]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 18.0]
+Progress: Parameterizing module sdram_pll
+Progress: Adding sysid [altera_avalon_sysid_qsys 18.0]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: final_soc.res_0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_3: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_4: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_5: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_6: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_7: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_8: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.res_9: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: final_soc.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: final_soc.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: final_soc.sysid: Time stamp will be automatically updated when this component is generated.
+Info: final_soc: Generating final_soc "final_soc" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src3 and cmd_mux_003.sink0
+Info: Inserting clock-crossing logic between cmd_demux_001.src3 and cmd_mux_003.sink1
+Info: Inserting clock-crossing logic between rsp_demux_003.src0 and rsp_mux.sink3
+Info: Inserting clock-crossing logic between rsp_demux_003.src1 and rsp_mux_001.sink3
+Info: inference: Starting RTL generation for module 'final_soc_inference'
+Info: inference:   Generation command is [exec D:/utilitysoftware/intelfpga_lite18.0/quartus/bin64/perl/bin/perl.exe -I D:/utilitysoftware/intelfpga_lite18.0/quartus/bin64/perl/lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin/europa -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin/perl_lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/common -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=final_soc_inference --dir=C:/Users/DOUGLA~1/AppData/Local/Temp/alt8617_3003752457931202679.dir/0002_inference_gen/ --quartus_dir=D:/utilitysoftware/intelfpga_lite18.0/quartus --verilog --config=C:/Users/DOUGLA~1/AppData/Local/Temp/alt8617_3003752457931202679.dir/0002_inference_gen//final_soc_inference_component_configuration.pl  --do_build_sim=0  ]
+Info: inference: Done RTL generation for module 'final_soc_inference'
+Info: inference: "final_soc" instantiated altera_avalon_pio "inference"
+Info: nios2_gen2_0: "final_soc" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'final_soc_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec D:/utilitysoftware/intelfpga_lite18.0/quartus/bin64/perl/bin/perl.exe -I D:/utilitysoftware/intelfpga_lite18.0/quartus/bin64/perl/lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin/europa -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin/perl_lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/common -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=final_soc_onchip_memory2_0 --dir=C:/Users/DOUGLA~1/AppData/Local/Temp/alt8617_3003752457931202679.dir/0003_onchip_memory2_0_gen/ --quartus_dir=D:/utilitysoftware/intelfpga_lite18.0/quartus --verilog --config=C:/Users/DOUGLA~1/AppData/Local/Temp/alt8617_3003752457931202679.dir/0003_onchip_memory2_0_gen//final_soc_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'final_soc_onchip_memory2_0'
+Info: onchip_memory2_0: "final_soc" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: res_0: Starting RTL generation for module 'final_soc_res_0'
+Info: res_0:   Generation command is [exec D:/utilitysoftware/intelfpga_lite18.0/quartus/bin64/perl/bin/perl.exe -I D:/utilitysoftware/intelfpga_lite18.0/quartus/bin64/perl/lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin/europa -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin/perl_lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/common -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=final_soc_res_0 --dir=C:/Users/DOUGLA~1/AppData/Local/Temp/alt8617_3003752457931202679.dir/0004_res_0_gen/ --quartus_dir=D:/utilitysoftware/intelfpga_lite18.0/quartus --verilog --config=C:/Users/DOUGLA~1/AppData/Local/Temp/alt8617_3003752457931202679.dir/0004_res_0_gen//final_soc_res_0_component_configuration.pl  --do_build_sim=0  ]
+Info: res_0: Done RTL generation for module 'final_soc_res_0'
+Info: res_0: "final_soc" instantiated altera_avalon_pio "res_0"
+Info: sdram: Starting RTL generation for module 'final_soc_sdram'
+Info: sdram:   Generation command is [exec D:/utilitysoftware/intelfpga_lite18.0/quartus/bin64/perl/bin/perl.exe -I D:/utilitysoftware/intelfpga_lite18.0/quartus/bin64/perl/lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin/europa -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin/perl_lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/common -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=final_soc_sdram --dir=C:/Users/DOUGLA~1/AppData/Local/Temp/alt8617_3003752457931202679.dir/0005_sdram_gen/ --quartus_dir=D:/utilitysoftware/intelfpga_lite18.0/quartus --verilog --config=C:/Users/DOUGLA~1/AppData/Local/Temp/alt8617_3003752457931202679.dir/0005_sdram_gen//final_soc_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'final_soc_sdram'
+Info: sdram: "final_soc" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: sdram_pll: "final_soc" instantiated altpll "sdram_pll"
+Info: sysid: "final_soc" instantiated altera_avalon_sysid_qsys "sysid"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "final_soc" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "final_soc" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "final_soc" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'final_soc_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec D:/UtilitySoftware/intelFPGA_lite18.0/quartus/bin64//eperlcmd.exe -I D:/UtilitySoftware/intelFPGA_lite18.0/quartus/bin64//perl/lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin/europa -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin/perl_lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/sopc_builder/bin -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- D:/utilitysoftware/intelfpga_lite18.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=final_soc_nios2_gen2_0_cpu --dir=C:/Users/DOUGLA~1/AppData/Local/Temp/alt8617_3003752457931202679.dir/0011_cpu_gen/ --quartus_bindir=D:/UtilitySoftware/intelFPGA_lite18.0/quartus/bin64/ --verilog --config=C:/Users/DOUGLA~1/AppData/Local/Temp/alt8617_3003752457931202679.dir/0011_cpu_gen//final_soc_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2020.12.21 10:22:22 (*) Starting Nios II generation
+Info: cpu: # 2020.12.21 10:22:22 (*)   Checking for plaintext license.
+Info: cpu: # 2020.12.21 10:22:23 (*)   Couldn't query license setup in Quartus directory D:/UtilitySoftware/intelFPGA_lite18.0/quartus/bin64/
+Info: cpu: # 2020.12.21 10:22:23 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2020.12.21 10:22:23 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2020.12.21 10:22:23 (*)   Plaintext license not found.
+Info: cpu: # 2020.12.21 10:22:23 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2020.12.21 10:22:23 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2020.12.21 10:22:23 (*)   Creating all objects for CPU
+Info: cpu: # 2020.12.21 10:22:23 (*)   Generating RTL from CPU objects
+Info: cpu: # 2020.12.21 10:22:23 (*)   Creating plain-text RTL
+Info: cpu: # 2020.12.21 10:22:24 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'final_soc_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: sysid_control_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "sysid_control_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: sysid_control_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "sysid_control_slave_agent"
+Info: sysid_control_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "sysid_control_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/Projects/ECE385Labs/final/final_code/final_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: final_soc: Done "final_soc" with 26 modules, 43 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

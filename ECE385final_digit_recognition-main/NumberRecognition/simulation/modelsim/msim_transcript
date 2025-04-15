@@ -1,0 +1,497 @@
+# Reading D:/UtilitySoftware/intelFPGA_lite18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do final_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/UtilitySoftware/intelFPGA_lite18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/vga_clock.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:08 on Dec 24,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/vga_clock.v 
+# -- Compiling module vga_clock
+# 
+# Top level modules:
+# 	vga_clock
+# End time: 16:51:08 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/ram_dual_port.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:08 on Dec 24,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/ram_dual_port.v 
+# -- Compiling module ram_dual_port
+# 
+# Top level modules:
+# 	ram_dual_port
+# End time: 16:51:08 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Projects/ECE385Labs/final/final_code/db {D:/Projects/ECE385Labs/final/final_code/db/vga_clock_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:08 on Dec 24,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/db" D:/Projects/ECE385Labs/final/final_code/db/vga_clock_altpll.v 
+# -- Compiling module vga_clock_altpll
+# 
+# Top level modules:
+# 	vga_clock_altpll
+# End time: 16:51:08 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/Color_Mapper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:08 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/Color_Mapper.sv 
+# -- Compiling module Color_Mapper
+# 
+# Top level modules:
+# 	Color_Mapper
+# End time: 16:51:08 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/VGA_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:08 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/VGA_controller.sv 
+# -- Compiling module VGA_controller
+# 
+# Top level modules:
+# 	VGA_controller
+# End time: 16:51:08 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:08 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 16:51:08 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/font_rom.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:08 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/font_rom.sv 
+# -- Compiling module font_rom
+# 
+# Top level modules:
+# 	font_rom
+# End time: 16:51:08 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/Mult.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/Mult.sv 
+# -- Compiling module Mult
+# 
+# Top level modules:
+# 	Mult
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/camera {D:/Projects/ECE385Labs/final/final_code/camera/ov7670_capture.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/camera" D:/Projects/ECE385Labs/final/final_code/camera/ov7670_capture.sv 
+# -- Compiling module ov7670_capture
+# 
+# Top level modules:
+# 	ov7670_capture
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/rgb2gray.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/rgb2gray.sv 
+# -- Compiling module rgb2gray
+# 
+# Top level modules:
+# 	rgb2gray
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/max.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/max.sv 
+# -- Compiling module max
+# 
+# Top level modules:
+# 	max
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/kernel_1x5x5.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/kernel_1x5x5.sv 
+# -- Compiling module kernel_1x5x5
+# 
+# Top level modules:
+# 	kernel_1x5x5
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/framebuffer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/framebuffer.sv 
+# -- Compiling module framebuffer
+# 
+# Top level modules:
+# 	framebuffer
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/address_generator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/address_generator.sv 
+# -- Compiling module address_generator
+# 
+# Top level modules:
+# 	address_generator
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/intermediate_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/intermediate_ram.sv 
+# -- Compiling module intermediate_ram
+# 
+# Top level modules:
+# 	intermediate_ram
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/fullyconnect_4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/fullyconnect_4.sv 
+# -- Compiling module fullyconnect_4
+# 
+# Top level modules:
+# 	fullyconnect_4
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/fullyconnect_5.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/fullyconnect_5.sv 
+# -- Compiling module fullyconnect_5
+# 
+# Top level modules:
+# 	fullyconnect_5
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/find_max.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/find_max.sv 
+# -- Compiling module find_max
+# 
+# Top level modules:
+# 	find_max
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/sample_data_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/sample_data_ram.sv 
+# -- Compiling module sample_data_ram
+# 
+# Top level modules:
+# 	sample_data_ram
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/c1_weight_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/c1_weight_ram.sv 
+# -- Compiling module c1_weight_ram
+# 
+# Top level modules:
+# 	c1_weight_ram
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/c1_bias_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/c1_bias_ram.sv 
+# -- Compiling module c1_bias_ram
+# 
+# Top level modules:
+# 	c1_bias_ram
+# End time: 16:51:09 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/c2_weight_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:09 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/c2_weight_ram.sv 
+# -- Compiling module c2_weight_ram
+# 
+# Top level modules:
+# 	c2_weight_ram
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/c2_bias_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/c2_bias_ram.sv 
+# -- Compiling module c2_bias_ram
+# 
+# Top level modules:
+# 	c2_bias_ram
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/convolution_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/convolution_1.sv 
+# -- Compiling module convolution_1
+# 
+# Top level modules:
+# 	convolution_1
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/convolution_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/convolution_2.sv 
+# -- Compiling module convolution_2
+# 
+# Top level modules:
+# 	convolution_2
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/pooling_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/pooling_1.sv 
+# -- Compiling module pooling_1
+# 
+# Top level modules:
+# 	pooling_1
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/pooling_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/pooling_2.sv 
+# -- Compiling module pooling_2
+# 
+# Top level modules:
+# 	pooling_2
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/c3_weight_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/c3_weight_ram.sv 
+# -- Compiling module c3_weight_ram
+# 
+# Top level modules:
+# 	c3_weight_ram
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/c3_bias_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/c3_bias_ram.sv 
+# -- Compiling module c3_bias_ram
+# 
+# Top level modules:
+# 	c3_bias_ram
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/convolution_3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/convolution_3.sv 
+# -- Compiling module convolution_3
+# 
+# Top level modules:
+# 	convolution_3
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/f4_weight_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/f4_weight_ram.sv 
+# -- Compiling module f4_weight_ram
+# 
+# Top level modules:
+# 	f4_weight_ram
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/f4_bias_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/f4_bias_ram.sv 
+# -- Compiling module f4_bias_ram
+# 
+# Top level modules:
+# 	f4_bias_ram
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/f5_weight_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/f5_weight_ram.sv 
+# -- Compiling module f5_weight_ram
+# 
+# Top level modules:
+# 	f5_weight_ram
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code/ram {D:/Projects/ECE385Labs/final/final_code/ram/f5_bias_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code/ram" D:/Projects/ECE385Labs/final/final_code/ram/f5_bias_ram.sv 
+# -- Compiling module f5_bias_ram
+# 
+# Top level modules:
+# 	f5_bias_ram
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/LeNet.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/LeNet.sv 
+# -- Compiling module LeNet
+# 
+# Top level modules:
+# 	LeNet
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/final_toplevel.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/final_toplevel.sv 
+# -- Compiling module final_toplevel
+# 
+# Top level modules:
+# 	final_toplevel
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Projects/ECE385Labs/final/final_code/camera/ov7670_registers.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:10 on Dec 24,2020
+# vcom -reportprogress 300 -93 -work work D:/Projects/ECE385Labs/final/final_code/camera/ov7670_registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ov7670_registers
+# -- Compiling architecture Behavioral of ov7670_registers
+# End time: 16:51:10 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Projects/ECE385Labs/final/final_code/camera/ov7670_controller.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:11 on Dec 24,2020
+# vcom -reportprogress 300 -93 -work work D:/Projects/ECE385Labs/final/final_code/camera/ov7670_controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ov7670_controller
+# -- Compiling architecture Behavioral of ov7670_controller
+# End time: 16:51:11 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:11 on Dec 24,2020
+# vcom -reportprogress 300 -93 -work work D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity i2c_sender
+# -- Compiling architecture Behavioral of i2c_sender
+# ** Warning: D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd(57): (vcom-1186) Array type case expression must be of a locally static subtype.
+# ** Warning: D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd(58): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd(65): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd(72): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd(79): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd(86): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: D:/Projects/ECE385Labs/final/final_code/camera/i2c_sender.vhd(93): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# End time: 16:51:11 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# vlib final_soc
+# ** Warning: (vlib-34) Library already exists at "final_soc".
+# vmap final_soc final_soc
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap final_soc final_soc 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/Projects/ECE385Labs/final/final_code {D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:51:11 on Dec 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Projects/ECE385Labs/final/final_code" D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv 
+# -- Compiling module testbench_convolution1
+# 
+# Top level modules:
+# 	testbench_convolution1
+# End time: 16:51:11 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L final_soc -voptargs="+acc"  testbench_convolution1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L final_soc -voptargs=""+acc"" testbench_convolution1 
+# Start time: 16:51:11 on Dec 24,2020
+# Loading sv_std.std
+# Loading work.testbench_convolution1
+# Loading work.LeNet
+# Loading work.intermediate_ram
+# Loading work.c1_weight_ram
+# Loading work.c1_bias_ram
+# Loading work.convolution_1
+# Loading work.kernel_1x5x5
+# Loading work.Mult
+# Loading work.pooling_1
+# Loading work.max
+# Loading work.c2_weight_ram
+# Loading work.c2_bias_ram
+# Loading work.convolution_2
+# Loading work.pooling_2
+# Loading work.c3_weight_ram
+# Loading work.c3_bias_ram
+# Loading work.convolution_3
+# Loading work.f4_weight_ram
+# Loading work.f4_bias_ram
+# Loading work.fullyconnect_4
+# Loading work.f5_weight_ram
+# Loading work.f5_bias_ram
+# Loading work.fullyconnect_5
+# Loading work.find_max
+# ** Warning: (vsim-3017) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Too few port connections. Expected 9, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_convolution1/net File: D:/Projects/ECE385Labs/final/final_code/LeNet.sv
+# ** Warning: (vsim-3722) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Missing connection for port 'test_rdaddr'.
+# ** Warning: (vsim-3722) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Missing connection for port 'sample_data_data'.
+# ** Warning: (vsim-3722) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Missing connection for port 'test_rddata'.
+# ** Warning: (vsim-3722) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Missing connection for port 'sample_data_addr'.
+# ** Warning: (vsim-3722) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Missing connection for port 'done'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 3000 us
+# ** Warning: (vsim-8315) D:/Projects/ECE385Labs/final/final_code/LeNet.sv(269): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_convolution1/net
+# ** Warning: (vsim-8315) D:/Projects/ECE385Labs/final/final_code/LeNet.sv(269): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench_convolution1/net
+add wave -position end  sim:/testbench_convolution1/net/c1/data_addr
+restart -f
+# ** Warning: (vsim-3017) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Too few port connections. Expected 9, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_convolution1/net File: D:/Projects/ECE385Labs/final/final_code/LeNet.sv
+# ** Warning: (vsim-3722) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Missing connection for port 'test_rdaddr'.
+# ** Warning: (vsim-3722) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Missing connection for port 'sample_data_data'.
+# ** Warning: (vsim-3722) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Missing connection for port 'test_rddata'.
+# ** Warning: (vsim-3722) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Missing connection for port 'sample_data_addr'.
+# ** Warning: (vsim-3722) D:/Projects/ECE385Labs/final/final_code/testbench_convolution1.sv(19): [TFMPC] - Missing connection for port 'done'.
+run 1ms
+# ** Warning: (vsim-8315) D:/Projects/ECE385Labs/final/final_code/LeNet.sv(269): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_convolution1/net
+# ** Warning: (vsim-8315) D:/Projects/ECE385Labs/final/final_code/LeNet.sv(269): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench_convolution1/net
+run 1ms
+run 1ms
+# End time: 16:55:03 on Dec 24,2020, Elapsed time: 0:03:52
+# Errors: 0, Warnings: 16

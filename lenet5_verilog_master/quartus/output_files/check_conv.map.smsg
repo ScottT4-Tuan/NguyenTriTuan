@@ -1,0 +1,22 @@
+Info (10281): Verilog HDL Declaration information at lenet5.v(50): object "rom_c1" differs only in case from object "ROM_C1" in the same scope File: D:/Coding/lenet5-verilog-master/src/lenet5.v Line: 50
+Info (10281): Verilog HDL Declaration information at lenet5.v(135): object "rom_c3_x3" differs only in case from object "ROM_C3_X3" in the same scope File: D:/Coding/lenet5-verilog-master/src/lenet5.v Line: 135
+Info (10281): Verilog HDL Declaration information at lenet5.v(136): object "rom_c3_x4" differs only in case from object "ROM_C3_X4" in the same scope File: D:/Coding/lenet5-verilog-master/src/lenet5.v Line: 136
+Info (10281): Verilog HDL Declaration information at lenet5.v(137): object "rom_c3_x6" differs only in case from object "ROM_C3_X6" in the same scope File: D:/Coding/lenet5-verilog-master/src/lenet5.v Line: 137
+Info (10281): Verilog HDL Declaration information at lenet5.v(343): object "rom_c5_0" differs only in case from object "ROM_C5_0" in the same scope File: D:/Coding/lenet5-verilog-master/src/lenet5.v Line: 343
+Info (10281): Verilog HDL Declaration information at lenet5.v(344): object "rom_c5_1" differs only in case from object "ROM_C5_1" in the same scope File: D:/Coding/lenet5-verilog-master/src/lenet5.v Line: 344
+Info (10281): Verilog HDL Declaration information at lenet5.v(423): object "rom_f6" differs only in case from object "ROM_F6" in the same scope File: D:/Coding/lenet5-verilog-master/src/lenet5.v Line: 423
+Info (10281): Verilog HDL Declaration information at lenet5.v(478): object "rom_out7" differs only in case from object "ROM_OUT7" in the same scope File: D:/Coding/lenet5-verilog-master/src/lenet5.v Line: 478
+Info (10281): Verilog HDL Declaration information at conv556.v(15): object "conv0" differs only in case from object "CONV0" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv556.v Line: 15
+Info (10281): Verilog HDL Declaration information at conv556.v(15): object "conv1" differs only in case from object "CONV1" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv556.v Line: 15
+Info (10281): Verilog HDL Declaration information at conv556.v(15): object "conv2" differs only in case from object "CONV2" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv556.v Line: 15
+Info (10281): Verilog HDL Declaration information at conv556.v(15): object "conv3" differs only in case from object "CONV3" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv556.v Line: 15
+Info (10281): Verilog HDL Declaration information at conv556.v(15): object "conv4" differs only in case from object "CONV4" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv556.v Line: 15
+Info (10281): Verilog HDL Declaration information at conv556.v(15): object "conv5" differs only in case from object "CONV5" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv556.v Line: 15
+Info (10281): Verilog HDL Declaration information at conv554.v(13): object "conv0" differs only in case from object "CONV0" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv554.v Line: 13
+Info (10281): Verilog HDL Declaration information at conv554.v(13): object "conv1" differs only in case from object "CONV1" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv554.v Line: 13
+Info (10281): Verilog HDL Declaration information at conv554.v(13): object "conv2" differs only in case from object "CONV2" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv554.v Line: 13
+Info (10281): Verilog HDL Declaration information at conv554.v(13): object "conv3" differs only in case from object "CONV3" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv554.v Line: 13
+Info (10281): Verilog HDL Declaration information at conv553.v(12): object "conv0" differs only in case from object "CONV0" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv553.v Line: 12
+Info (10281): Verilog HDL Declaration information at conv553.v(12): object "conv1" differs only in case from object "CONV1" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv553.v Line: 12
+Info (10281): Verilog HDL Declaration information at conv553.v(12): object "conv2" differs only in case from object "CONV2" in the same scope File: D:/Coding/lenet5-verilog-master/src/conv553.v Line: 12
+Warning (10268): Verilog HDL information at control.v(38): always construct contains both blocking and non-blocking assignments File: D:/Coding/lenet5-verilog-master/src/control.v Line: 38

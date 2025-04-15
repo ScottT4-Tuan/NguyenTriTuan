@@ -1,0 +1,81 @@
+# Compile of AcceLeNetor.sv was successful.
+# Compile of activation_layer_1.sv was successful.
+# Compile of activation_layer_1_testbench.sv was successful.
+# Compile of activation_layer_2.sv was successful.
+# Compile of activation_layer_3.sv was successful.
+# Compile of activation_layer_3_testbench.sv was successful.
+# Compile of conv_layer_1.sv was successful.
+# Compile of conv_layer_1_testbench.sv was successful.
+# Compile of conv_layer_2.sv was successful.
+# Compile of conv_layer_2_testbench.sv was successful.
+# Compile of conv_layer_3.sv was successful.
+# Compile of conv_layer_3_testbench.sv was successful.
+# Compile of convolution_point.sv was successful.
+# Compile of convolution_point_testbench.sv was successful.
+# Compile of fully_connect_layer.sv was successful.
+# Compile of fully_connect_layer_testbench.sv was successful.
+# Compile of image_rom.sv was successful.
+# Compile of kernel_and_matrix.sv was successful.
+# Compile of kernel_and_matrix_8bits.sv was successful.
+# Compile of Lenet_accelerator.sv was successful.
+# Compile of max.sv was successful.
+# Compile of maxpooling_1.sv was successful.
+# Compile of maxpooling_1_testbench.sv was successful.
+# Compile of maxpooling_2.sv was successful.
+# Compile of test_image_4_8bits.sv was successful.
+# 25 compiles, 0 failed with no errors.
+vsim -gui work.conv_layer_1_testbench
+# vsim -gui work.conv_layer_1_testbench 
+# Start time: 20:42:45 on Apr 13,2025
+# Loading sv_std.std
+# Loading work.conv_layer_1_testbench
+# Loading work.conv_layer_1
+# Loading work.convolution_point
+# ** Error: (vsim-3906) Connection type 'reg[31:0]$[31:0][31:0]' is incompatible with 'wire signed[7:0]$[31:0][31:0]' for  port (image_padded):  Array elem. widths 8 & 32 don't match.
+#    Time: 0 ps  Iteration: 0  Instance: /conv_layer_1_testbench/conv_layer_1_instance File: D:/Coding/AcceLeNetor-master/modelsim/conv_layer_1_testbench.sv Line: 13
+# ** Error: (vsim-3906) Connection type 'reg[31:0]$[4:0][4:0][1:0]' is incompatible with 'wire signed[7:0]$[4:0][4:0][1:0]' for  port (kernel):  Array elem. widths 8 & 32 don't match.
+#    Time: 0 ps  Iteration: 0  Instance: /conv_layer_1_testbench/conv_layer_1_instance File: D:/Coding/AcceLeNetor-master/modelsim/conv_layer_1_testbench.sv Line: 13
+# ** Error: (vsim-3906) Connection type 'reg[31:0]$[27:0][27:0][1:0]' is incompatible with 'reg signed[7:0]$[27:0][27:0][1:0]' for  port (featuremap):  Array elem. widths 8 & 32 don't match.
+#    Time: 0 ps  Iteration: 0  Instance: /conv_layer_1_testbench/conv_layer_1_instance File: D:/Coding/AcceLeNetor-master/modelsim/conv_layer_1_testbench.sv Line: 13
+# Error loading design
+# End time: 20:42:46 on Apr 13,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 7
+# Compile of AcceLeNetor.sv was successful.
+# Compile of activation_layer_1.sv was successful.
+# Compile of activation_layer_2.sv was successful.
+# Compile of activation_layer_3.sv was successful.
+# Compile of conv_layer_1.sv was successful.
+# Compile of conv_layer_2.sv was successful.
+# Compile of conv_layer_3.sv was successful.
+# Compile of convolution_point.sv was successful.
+# Compile of fully_connect_layer.sv was successful.
+# Compile of image_rom.sv was successful.
+# Compile of kernel_and_matrix.sv was successful.
+# Compile of kernel_and_matrix_8bits.sv was successful.
+# Compile of Lenet_accelerator.sv was successful.
+# Compile of max.sv was successful.
+# Compile of maxpooling_1.sv was successful.
+# Compile of maxpooling_2.sv was successful.
+# Compile of test_image_4_8bits.sv was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.AcceLeNetor_testbench
+# vsim -gui work.AcceLeNetor_testbench 
+# Start time: 21:50:04 on Apr 13,2025
+# Loading sv_std.std
+# Loading work.AcceLeNetor_testbench
+# Loading work.AcceLeNetor
+# Loading work.image_rom
+# Loading work.kernel_matrix_trained
+# Loading work.Lenet_accelerator
+# Loading work.conv_layer_1
+# Loading work.activation_layer_1
+# Loading work.maxpooling_1
+# Loading work.conv_layer_2
+# Loading work.activation_layer_2
+# Loading work.maxpooling_2
+# Loading work.conv_layer_3
+# Loading work.activation_layer_3
+# Loading work.fully_connect_layer
+# Loading work.convolution_point
+# End time: 21:50:24 on Apr 13,2025, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 10

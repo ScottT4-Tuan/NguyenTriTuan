@@ -1,0 +1,97 @@
+# Compile of test_image_4_8bits.sv was successful.
+# Compile of AcceLeNetor.sv failed with 2 errors.
+# Compile of activation_layer_1.sv was successful.
+# Compile of activation_layer_2.sv was successful.
+# Compile of activation_layer_3.sv was successful.
+# Compile of conv_layer_1.sv was successful.
+# Compile of conv_layer_2.sv was successful.
+# Compile of conv_layer_3.sv was successful.
+# Compile of convolution_point.sv was successful.
+# Compile of fully_connect_layer.sv was successful.
+# Compile of kernel_and_matrix.sv failed with 1 errors.
+# Compile of Lenet_accelerator.sv was successful.
+# Compile of max.sv was successful.
+# Compile of maxpooling_1.sv was successful.
+# Compile of maxpooling_2.sv was successful.
+# Compile of AcceLeNetor_testbench.sv was successful.
+# 16 compiles, 2 failed with 3 errors.
+# Compile of AcceLeNetor.sv was successful.
+# Compile of AcceLeNetor_testbench.sv was successful.
+# Compile of activation_layer_1.sv was successful.
+# Compile of activation_layer_2.sv was successful.
+# Compile of activation_layer_3.sv was successful.
+# Compile of conv_layer_1.sv was successful.
+# Compile of conv_layer_2.sv was successful.
+# Compile of conv_layer_3.sv was successful.
+# Compile of convolution_point.sv was successful.
+# Compile of fully_connect_layer.sv was successful.
+# Compile of image_rom.sv was successful.
+# Compile of kernel_and_matrix.sv was successful.
+# Compile of kernel_and_matrix_8bits.sv was successful.
+# Compile of Lenet_accelerator.sv was successful.
+# Compile of max.sv was successful with warnings.
+# Compile of maxpooling_1.sv was successful.
+# Compile of maxpooling_2.sv was successful.
+# Compile of test_image_4_8bits.sv was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui work.AcceLeNetor_testbench
+# vsim -gui work.AcceLeNetor_testbench 
+# Start time: 17:24:10 on Apr 15,2025
+# Loading sv_std.std
+# Loading work.AcceLeNetor_testbench
+# Loading work.AcceLeNetor
+# Loading work.image_rom
+# Loading work.kernel_matrix_trained
+# Loading work.Lenet_accelerator
+# Loading work.conv_layer_1
+# Loading work.activation_layer_1
+# Loading work.maxpooling_1
+# Loading work.conv_layer_2
+# Loading work.activation_layer_2
+# Loading work.maxpooling_2
+# Loading work.conv_layer_3
+# Loading work.activation_layer_3
+# Loading work.fully_connect_layer
+# Loading work.convolution_point
+add wave -position insertpoint sim:/AcceLeNetor_testbench/AcceLeNetor_instance/*
+run -all
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 21:37:04 on Apr 15,2025, Elapsed time: 4:12:54
+# Errors: 0, Warnings: 18
+vsim -gui work.AcceLeNetor_testbench
+# vsim -gui work.AcceLeNetor_testbench 
+# Start time: 21:53:13 on Apr 15,2025
+# Loading sv_std.std
+# Loading work.AcceLeNetor_testbench
+# Loading work.AcceLeNetor
+# Loading work.image_rom
+# Loading work.kernel_matrix_trained
+# Loading work.Lenet_accelerator
+# Loading work.conv_layer_1
+# Loading work.activation_layer_1
+# Loading work.maxpooling_1
+# Loading work.conv_layer_2
+# Loading work.activation_layer_2
+# Loading work.maxpooling_2
+# Loading work.conv_layer_3
+# Loading work.activation_layer_3
+# Loading work.fully_connect_layer
+# Loading work.convolution_point
+# WARNING: No extended dataflow license exists
+step
+# Break in Module Lenet_accelerator at D:/Coding/AcceLeNetor-master/modelsim/Lenet_accelerator.sv line 78
+# Break in Module Lenet_accelerator at D:/Coding/AcceLeNetor-master/modelsim/Lenet_accelerator.sv line 78
+#  Trace back: invalid command name ".main_pane.cs.58.pw"
+#     while executing
+# "$w cget -opaqueresize"
+#     (procedure "::tk::panedwindow::ReleaseSash" line 2)
+#     invoked from within
+# "::tk::panedwindow::ReleaseSash $w $opaque"
+#     (procedure "::tk::panedwindow::2DReleaseSash" line 8)
+#     invoked from within
+# "::tk::panedwindow::2DReleaseSash .main_pane.cs.78.pw 699 679 707 862 0"
+#     (command bound to event)
+#    <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {invalid command name ".main_pane.cs.58.pw"}
+step
+run -all

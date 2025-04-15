@@ -1,0 +1,449 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vcontrol
+Z0 !s110 1744124259
+!i10b 1
+!s100 `SDAVQPenGc0YC`QDFfQF3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJZoVhFl4[7GXRQz<U5Tck0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Coding/lenet5-verilog-master/quartus
+Z4 w1593516922
+8D:/Coding/lenet5-verilog-master/modelsim/control.v
+FD:/Coding/lenet5-verilog-master/modelsim/control.v
+!i122 134
+L0 1 104
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1744124259.000000
+!s107 D:/Coding/lenet5-verilog-master/modelsim/control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/control.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vconv55
+R0
+!i10b 1
+!s100 Gc2Pj41nXmokh0_=V9o3V2
+R1
+IWPAG8nF@YbmgT[PLcKL]d3
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/conv55.v
+FD:/Coding/lenet5-verilog-master/modelsim/conv55.v
+!i122 135
+L0 1 67
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/conv55.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/conv55.v|
+!i113 1
+R7
+R8
+vconv553
+R0
+!i10b 1
+!s100 Wg9I`jjhkc?LPbzQX^o<n0
+R1
+I@gN9^cK]gVLzjBTNQn19@0
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/conv553.v
+FD:/Coding/lenet5-verilog-master/modelsim/conv553.v
+!i122 137
+L0 1 53
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/conv553.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/conv553.v|
+!i113 1
+R7
+R8
+vconv554
+R0
+!i10b 1
+!s100 dVN9AK6nof:NJ`zb=0IHN3
+R1
+ITX>`W>Sc;<eWG=eFBXbP81
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/conv554.v
+FD:/Coding/lenet5-verilog-master/modelsim/conv554.v
+!i122 138
+L0 1 63
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/conv554.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/conv554.v|
+!i113 1
+R7
+R8
+vconv556
+R0
+!i10b 1
+!s100 5H0CW<>TB4]MBIAEcPSHQ2
+R1
+IQnOQ^<Z:bIk`lM0?QEJ:M0
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/conv556.v
+FD:/Coding/lenet5-verilog-master/modelsim/conv556.v
+!i122 139
+L0 1 84
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/conv556.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/conv556.v|
+!i113 1
+R7
+R8
+vconv55_16
+R0
+!i10b 1
+!s100 <V9:gLQjhO2J_i4MB2ZE53
+R1
+IEihn>g4K?l8`RD16OQe:03
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/conv55_16.v
+FD:/Coding/lenet5-verilog-master/modelsim/conv55_16.v
+!i122 136
+L0 2 72
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/conv55_16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/conv55_16.v|
+!i113 1
+R7
+R8
+vfc_120
+R0
+!i10b 1
+!s100 `GnO5c85C<Q3V?13[R=Fe3
+R1
+IUTKD4^Zoz2IE6cAi4n?3?2
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/fc_120.v
+FD:/Coding/lenet5-verilog-master/modelsim/fc_120.v
+!i122 141
+L0 2 62
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/fc_120.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/fc_120.v|
+!i113 1
+R7
+R8
+vfc_84
+R0
+!i10b 1
+!s100 KTmR2BGB?I3cO:lnel=cj0
+R1
+IMMcHP]Hg^2@91:UjA:GKb2
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/fc_84.v
+FD:/Coding/lenet5-verilog-master/modelsim/fc_84.v
+!i122 140
+L0 2 60
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/fc_84.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/fc_84.v|
+!i113 1
+R7
+R8
+vimage_reader
+R0
+!i10b 1
+!s100 JKh13[7[zgAXBi;Pb>o7=1
+R1
+IhPb9U_O9h9_o9=VA`mI^k0
+R2
+R3
+w1744124244
+8D:/Coding/lenet5-verilog-master/modelsim/image_reader.v
+FD:/Coding/lenet5-verilog-master/modelsim/image_reader.v
+!i122 142
+Z9 L0 1 23
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/image_reader.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/image_reader.v|
+!i113 1
+R7
+R8
+vlarger_index
+R0
+!i10b 1
+!s100 8X?84K]YnkENlVO^6Oml43
+R1
+IX63o>DG71?ecZ[hQeX^:K0
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/larger_index.v
+FD:/Coding/lenet5-verilog-master/modelsim/larger_index.v
+!i122 143
+L0 1 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/larger_index.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/larger_index.v|
+!i113 1
+R7
+R8
+vlenet5
+R0
+!i10b 1
+!s100 G<Z3X]OcGJCcb0AhCK:kf0
+R1
+IU^gmL[^<bfa0T2YULL:Wn3
+R2
+R3
+w1744123836
+8D:/Coding/lenet5-verilog-master/modelsim/lenet5.v
+FD:/Coding/lenet5-verilog-master/modelsim/lenet5.v
+!i122 144
+L0 1 540
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/lenet5.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/lenet5.v|
+!i113 1
+R7
+R8
+vmax
+R0
+!i10b 1
+!s100 _^34TK<>aNk4Y1AO@MHn91
+R1
+IeTc8gFFl9gc54cFHg968m0
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/max.v
+FD:/Coding/lenet5-verilog-master/modelsim/max.v
+!i122 145
+Z10 L0 1 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/max.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/max.v|
+!i113 1
+R7
+R8
+vmax_index_10
+R0
+!i10b 1
+!s100 h[O>j`]7bZDk4aHYJHR<V1
+R1
+I260E]@SNCDm30fT6OREiI1
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v
+FD:/Coding/lenet5-verilog-master/modelsim/max_index_10.v
+!i122 146
+L0 1 62
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/max_index_10.v|
+!i113 1
+R7
+R8
+vmaxpool22
+R0
+!i10b 1
+!s100 JZd2jCOcbjlhMLNAF4Jff0
+R1
+IQQ[Y`I3Wz4SEF][T3F1dz0
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/maxpool22.v
+FD:/Coding/lenet5-verilog-master/modelsim/maxpool22.v
+!i122 147
+L0 1 42
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/maxpool22.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/maxpool22.v|
+!i113 1
+R7
+R8
+vReLU
+R0
+!i10b 1
+!s100 M_B7Sb;<1S`AJbMF_HBz80
+R1
+Iaz:M@j?Ib=Xz5<P;@2MN90
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/relu.v
+FD:/Coding/lenet5-verilog-master/modelsim/relu.v
+!i122 148
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/relu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/relu.v|
+!i113 1
+R7
+R8
+n@re@l@u
+vrom_params
+R0
+!i10b 1
+!s100 ;T1Fb`^>QWBS0E=GJAazi3
+R1
+Ik<0g<>AX4O1?dC67Y6=gY2
+R2
+R3
+w1744120795
+8D:/Coding/lenet5-verilog-master/modelsim/rom_params.v
+FD:/Coding/lenet5-verilog-master/modelsim/rom_params.v
+!i122 149
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/rom_params.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/rom_params.v|
+!i113 1
+R7
+R8
+vrow4buffer
+R0
+!i10b 1
+!s100 C]^Z;LPRHB@z`hi23HZ1U2
+R1
+IgYV`]Rf2N`^9Q@e8U^iNP0
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/row4buffer.v
+FD:/Coding/lenet5-verilog-master/modelsim/row4buffer.v
+!i122 150
+L0 1 38
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/row4buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/row4buffer.v|
+!i113 1
+R7
+R8
+vrowbuffer
+R0
+!i10b 1
+!s100 IKb[cgol^WUC0hWc;f`0S2
+R1
+ILXQn>IZ>ifSjE2=6j7@Q>3
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/rowbuffer.v
+FD:/Coding/lenet5-verilog-master/modelsim/rowbuffer.v
+!i122 151
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/rowbuffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/rowbuffer.v|
+!i113 1
+R7
+R8
+vt_lenet5
+!s110 1744124260
+!i10b 1
+!s100 m;E=dge5;PSZYio?3LRc^3
+R1
+Iiz2^nLhbd0IbdiIaBCOGU1
+R2
+R3
+R4
+8D:/Coding/lenet5-verilog-master/modelsim/t_lenet5.v
+FD:/Coding/lenet5-verilog-master/modelsim/t_lenet5.v
+!i122 152
+L0 1 25
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Coding/lenet5-verilog-master/modelsim/t_lenet5.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Coding/lenet5-verilog-master/modelsim/t_lenet5.v|
+!i113 1
+R7
+R8
