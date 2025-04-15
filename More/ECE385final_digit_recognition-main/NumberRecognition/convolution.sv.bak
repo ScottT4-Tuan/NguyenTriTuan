@@ -1,0 +1,9 @@
+module convolution(
+	input logic Clk, Reset,
+	input logic signed [31:0] curdata,
+	input logic signed [31:0] curweight,
+	output logic 		 [9:0]  data_addr,
+	output logic 		 [13:0]  weight_addr
+);
+
+endmodule

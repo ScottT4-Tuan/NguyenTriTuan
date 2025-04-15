@@ -1,0 +1,118 @@
+module convolution_1(
+	input logic 				  Clk, Reset, start,
+	input logic signed [31:0] curdata,
+	input logic signed [31:0] curweight,
+	input logic signed [31:0] curbias,
+	output logic 		 [9:0]  data_addr,
+	output logic 		 [13:0] weight_addr,
+	output logic 		 [9:0]  bias_addr,
+	output logic 		 [9:0]  temp_addr,
+	output logic signed[31:0] temp_data,
+	output logic     			  temp_wren,
+	output logic 				  ready
+);
+
+	// temporary variable
+	logic signed [31:0] data [25];
+	logic signed [31:0] weight [25];
+	logic signed [31:0] bias;
+	logic signed [31:0] result;
+	logic 		 [9:0]  data_base_addr;
+	integer counter_step, counter_data, counter_batch, counter_weight;
+	
+	kernel_1x5x5 kernel(.data, .weight, .bias, .reluEnable(1'b1), .result);
+	
+	assign data_base_addr = counter_step/28*32+counter_step%28;
+	assign data_addr = data_base_addr + counter_data/5*32 + counter_data%5;
+	
+	assign weight_addr = counter_batch * 25 + counter_weight;
+	assign temp_addr = counter_step;
+	assign temp_data = result;
+	
+	enum logic [4:0] {IDLE, CHECK_BATCH, LOAD_WEIGHT, LOAD_BIAS, CHECK_STEP,
+							LOAD_DATA, SAVE_RESULT, DONE} state;
+	
+	always_ff@(posedge Clk)
+	begin
+		if(Reset)begin
+			state <= IDLE;
+			counter_batch <= 0;
+			counter_data <= 0;
+			counter_step <= 0;
+		end else begin
+			case(state)
+				IDLE:
+					if(start)
+						state <= CHECK_BATCH;
+						
+				CHECK_BATCH:
+					if(counter_batch < 6)
+						state <= LOAD_WEIGHT;
+					else
+						state <= DONE;
+						
+				LOAD_WEIGHT:begin
+					if(counter_weight == 25)begin
+						state <= LOAD_BIAS;
+						counter_weight <= 0;
+					end else begin
+						counter_weight <= counter_weight + 1;
+						weight[counter_weight] <= curweight;
+					end
+				end
+				
+				LOAD_BIAS:begin
+					bias <= curbias;
+					bias_addr <= bias_addr + 1;
+					state <= CHECK_STEP;
+				end
+				
+				CHECK_STEP:
+					if(counter_step == 784)begin
+						counter_step <= 0;
+						state <= CHECK_BATCH;
+					end else 
+						state <= LOAD_DATA;
+				
+				LOAD_DATA:begin
+					if(counter_data == 25)begin
+						counter_data <= 0;
+						state <= SAVE_RESULT;
+					end else begin
+						data[counter_data] <= curdata;
+						counter_data <= counter_data + 1;
+					end
+				end
+				
+				SAVE_RESULT:begin
+					counter_step <= counter_step + 1;
+					state <= CHECK_STEP;
+				end
+				
+				DONE:begin
+					counter_batch <= 0;
+					state <= IDLE;
+				end
+		
+			endcase
+		end
+	end
+	
+	always_comb
+	begin
+		temp_wren = 1'b0;
+		ready = 1'b0;
+		case(state)
+			SAVE_RESULT:
+				temp_wren = 1'b1;
+				
+			DONE:
+				ready = 1'b1;
+				
+			default:;
+		
+		endcase
+	
+	end
+
+endmodule

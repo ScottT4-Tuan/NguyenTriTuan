@@ -1,0 +1,48 @@
+module final_testbench();
+
+timeunit 10ns;	// Half clock cycle at 50 MHz
+				// This is the amount of time represented by #1
+
+timeprecision 1ns;
+
+
+logic Clk, Reset;
+logic [3:0] state;
+integer counter1, counter2;
+
+initial begin
+	$readmemb("D:/Projects/ECE385Labs/final/final_code/weights/input_2.txt", data);
+//	$readmemb("D:/Projects/ECE385Labs/final/final_code/weights/s2_res.txt", s2_res);
+end
+
+lenet5 net()
+
+always #1 Clk = ~Clk;
+
+always begin
+	#1
+	counter1 = c1.counter_step;
+	counter2 = c2.counter_step;
+end
+
+
+initial
+begin
+	Clk = 0;
+	Reset = 1;
+	start1 = 0;
+	start2 = 0;
+	#2
+	Reset = 0;
+	start1 = 1;
+	#2
+	start1 = 0;
+	#3147
+	start2 = 1;
+	#2
+	start2 = 0;
+
+end
+
+
+endmodule

@@ -1,0 +1,73 @@
+module LeNet(
+	input logic Clk, Reset, start,
+	input logic 
+);
+
+	logic 					inter_ram0_wren;
+	logic 					inter_ram1_wren;
+	logic 					c1_ready;
+
+	logic [9:0]			   c1_weight_addr;
+	logic [9:0]				c1_bias_addr;
+	logic [9:0]				inter_ram0_wraddr;
+	logic [9:0]				inter_ram1_wraddr;
+	logic [9:0]				inter_ram0_rdaddr;
+	logic [9:0]				inter_ram1_rdaddr;
+	logic [9:0]				sample_data_addr;
+	
+	logic signed [31:0]	c1_weight_data;
+	logic signed [31:0]	c1_bias_data;
+	logic signed [31:0]	inter_ram0_rddata;
+	logic signed [31:0]	inter_ram1_rddata;
+	logic signed [31:0]	inter_ram0_wrdata;
+	logic signed [31:0]	inter_ram1_wrdata;
+	logic signed [31:0]	sample_data_data;
+	
+	intermediate_ram temp0(
+							.Clk,
+							.rdaddr(inter_ram0_rdaddr),
+							.rddata(inter_ram0_rddata),
+							.wren(inter_ram0_wren),
+							.wraddr(inter_ram0_wraddr),
+							.wrdata(inter_ram0_wrdata));
+							
+	intermediate_ram temp1(
+							.Clk,
+							.rdaddr(inter_ram1_rdaddr),
+							.rddata(inter_ram1_rddata),
+							.wren(inter_ram1_wren),
+							.wraddr(inter_ram1_wraddr),
+							.wrdata(inter_ram1_wrdata));
+	
+	sample_data_ram data_ram(
+							.Clk,
+							.addr(sample_data_addr),
+							.read_data(sample_data_data));
+	
+	c1_weight_ram c1_weight(
+							.Clk,
+							.addr(c1_weight_addr),
+							.read_data(c1_weight_data));
+							
+	c1_bias_ram c1_bias(
+							.Clk,
+							.addr(c1_bias_addr),
+							.read_data(c1_bias_data));
+							
+							
+	convolution_1 c1(
+							.Clk, .start, .Reset,
+							.curdata(sample_data_data),
+							.curweight(c1_weight_data),
+							.curbias(c1_bias_data),
+							.data_addr(sample_data_addr),
+							.weight_addr(c1_weight_addr),
+							.bias_addr(c1_bias_addr),
+							.temp_addr(c1_temp_wraddr),
+							.temp_data(c1_temp_wrdata),
+							.temp_wren(c1_temp_wren),
+							.ready(c1_ready));
+
+
+
+endmodule

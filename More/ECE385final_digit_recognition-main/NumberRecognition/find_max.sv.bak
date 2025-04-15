@@ -1,0 +1,8 @@
+module find_max(
+	input logic 				  Clk, Reset, start,
+	input logic signed [31:0] curdata,
+	output logic 		 [13:0] data_addr,
+	output logic 				  idx
+);
+
+endmodule 

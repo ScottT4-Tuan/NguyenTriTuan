@@ -1,0 +1,739 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Coding/lenet5_verilog_master/modelsim
+vbackground_ram
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1744707475
+!i10b 1
+!s100 eNMBaX_ac@?0k0[2b[0bQ3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IEWaO]DQ;I=lT=_oLHJ>`S1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/ECE385final_digit_recognition-main/NumberRecognition/brams
+Z5 w1629683016
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/background_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/background_ram.sv
+!i122 21
+Z6 L0 1 19
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1744707475.000000
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/background_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/background_ram.sv|
+!i113 1
+Z9 o-work work -sv
+Z10 tCvgOpt 0
+vbram_conv1_bias
+R0
+R1
+!i10b 1
+!s100 G]JV`<BG2o^a3?RROMELg3
+R2
+IaXCV1VnUF]NDWP7Sd3D<B0
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv2_weight.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv2_weight.sv
+!i122 20
+Z11 L0 1 21
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv2_weight.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv2_weight.sv|
+!i113 1
+R9
+R10
+vbram_conv1_weight
+R0
+R1
+!i10b 1
+!s100 V_LQQ`TF:cE]e2EV`JlRk3
+R2
+IF9d5J]V;Hgca04j<4`Dk80
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv1_weight.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv1_weight.sv
+!i122 18
+R11
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv1_weight.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/brams/bram_conv1_weight.sv|
+!i113 1
+R9
+R10
+vc1_bias_ram
+R0
+Z12 !s110 1744707476
+!i10b 1
+!s100 [f?1WU;hKjdL^n;7Km`<i3
+R2
+IcJe41RY?TnIXMh:LMk;g11
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c1_bias_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/c1_bias_ram.sv
+!i122 22
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c1_bias_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c1_bias_ram.sv|
+!i113 1
+R9
+R10
+vc1_weight_ram
+R0
+R12
+!i10b 1
+!s100 bQcB5cOPD_T`obHmDP04:1
+R2
+IW]`M>GQljJbIZdBlFnOA12
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c1_weight_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/c1_weight_ram.sv
+!i122 23
+R6
+R7
+r1
+!s85 0
+31
+Z13 !s108 1744707476.000000
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c1_weight_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c1_weight_ram.sv|
+!i113 1
+R9
+R10
+vc2_bias_ram
+R0
+R12
+!i10b 1
+!s100 DaFPgY_^NRcN>YMQ6JLf61
+R2
+I:@0^FWdQXi^@]c^6VUCg23
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c2_bias_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/c2_bias_ram.sv
+!i122 24
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c2_bias_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c2_bias_ram.sv|
+!i113 1
+R9
+R10
+vc2_weight_ram
+R0
+R12
+!i10b 1
+!s100 On46Z5Nm_f5f0XmFbb<jV2
+R2
+IDk5KR;J`;EU1Z??Na8I@>2
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c2_weight_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/c2_weight_ram.sv
+!i122 25
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c2_weight_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c2_weight_ram.sv|
+!i113 1
+R9
+R10
+vc3_bias_ram
+R0
+R12
+!i10b 1
+!s100 o0klQP>YNYgMO>ia]DR?P3
+R2
+IBEcRV:oeT^R`eG^R<akFX0
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c3_bias_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/c3_bias_ram.sv
+!i122 26
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c3_bias_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c3_bias_ram.sv|
+!i113 1
+R9
+R10
+vc3_weight_ram
+R0
+R12
+!i10b 1
+!s100 90Ihk10b<45Mh_B]6D9ej0
+R2
+IVi]5NVc5:1`@;5bmP4z:V2
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c3_weight_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/c3_weight_ram.sv
+!i122 27
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c3_weight_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/c3_weight_ram.sv|
+!i113 1
+R9
+R10
+vconvKernel
+R0
+R12
+!i10b 1
+!s100 A^1GN;TVXHf5cPz0J3m?61
+R2
+IRb`faZ3=50G[CWLcF_V<^1
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/convKernel.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/convKernel.sv
+!i122 34
+L0 1 58
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/convKernel.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/convKernel.sv|
+!i113 1
+R9
+R10
+nconv@kernel
+vconvolution_1
+R0
+R12
+!i10b 1
+!s100 ^LEIo9gcc?092lR;KohjO1
+R2
+I::>0]fFAMOSIE8fH?NAaa1
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_1.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/convolution_1.sv
+!i122 35
+L0 1 122
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_1.sv|
+!i113 1
+R9
+R10
+vconvolution_2
+R0
+R12
+!i10b 1
+!s100 K7SH`D9>jz@<lHJQiFF9O3
+R2
+IKX`Y1`B@YI9F=D@L>9=1P3
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_2.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/convolution_2.sv
+!i122 36
+L0 1 141
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_2.sv|
+!i113 1
+R9
+R10
+vconvolution_3
+R0
+R12
+!i10b 1
+!s100 6Bl;c4O@f<TXn?fGLXamH2
+R2
+I71HB4=c9?8J0gAGJboh162
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_3.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/convolution_3.sv
+!i122 37
+L0 1 142
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/convolution_3.sv|
+!i113 1
+R9
+R10
+vf4_bias_ram
+R0
+R12
+!i10b 1
+!s100 VnX;a]XOF[:d0OSVzXSdB1
+R2
+I1R?bZFka[4JcWU1bdL8893
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f4_bias_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/f4_bias_ram.sv
+!i122 28
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f4_bias_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f4_bias_ram.sv|
+!i113 1
+R9
+R10
+vf4_weight_ram
+R0
+R12
+!i10b 1
+!s100 7Qo2;7HWGI`hSI9WLESUg3
+R2
+I=Zf3SGWIjhGlnYO16KGno0
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f4_weight_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/f4_weight_ram.sv
+!i122 29
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f4_weight_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f4_weight_ram.sv|
+!i113 1
+R9
+R10
+vf5_bias_ram
+R0
+R12
+!i10b 1
+!s100 F4^O>VJbD[`JE;cTQ;J]@2
+R2
+Ig[XdJ5n8elg:_d^Zea0NW1
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f5_bias_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/f5_bias_ram.sv
+!i122 30
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f5_bias_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f5_bias_ram.sv|
+!i113 1
+R9
+R10
+vf5_weight_ram
+R0
+R12
+!i10b 1
+!s100 O:?@JmzK?`038c]RiFm9e3
+R2
+Ia_J7Q01eQCehV[XTz[=lK2
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f5_weight_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/f5_weight_ram.sv
+!i122 31
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f5_weight_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/f5_weight_ram.sv|
+!i113 1
+R9
+R10
+vfind_max
+R0
+R12
+!i10b 1
+!s100 2R^N:jLf`nJAH5`?8h0kT1
+R2
+I971[aaNjl6Mn6h`b2P=nY1
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/find_max.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/find_max.sv
+!i122 38
+L0 1 69
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/find_max.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/find_max.sv|
+!i113 1
+R9
+R10
+vframebuffer
+R0
+R12
+!i10b 1
+!s100 ^bUSBW@XZ`oKD[IkglHSn0
+R2
+Ih[J?ST@VdiCV^L;O[SJ;Y0
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/framebuffer.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/framebuffer.sv
+!i122 39
+L0 1 64
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/framebuffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/framebuffer.sv|
+!i113 1
+R9
+R10
+vfullyconnect_4
+R0
+R12
+!i10b 1
+!s100 ]I]HU>3j1O>Yllh^?10=H0
+R2
+I>?HIhL@ak@zRelKL3aIT@2
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_4.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_4.sv
+!i122 40
+Z14 L0 1 124
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_4.sv|
+!i113 1
+R9
+R10
+vfullyconnect_5
+R0
+R12
+!i10b 1
+!s100 694>gkBo=fM66:_cPnKTE1
+R2
+I4Ufm_oz[Gn^EWI`]e6^X71
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_5.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_5.sv
+!i122 41
+R14
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_5.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/fullyconnect_5.sv|
+!i113 1
+R9
+R10
+vintermediate_ram
+R0
+R12
+!i10b 1
+!s100 3VBlkXXi]TRocB`2XC96=3
+R2
+IPfD`52Jzbg@57UN2S]iBm2
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/intermediate_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/intermediate_ram.sv
+!i122 32
+Z15 L0 1 23
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/intermediate_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/intermediate_ram.sv|
+!i113 1
+R9
+R10
+vkernel_1x5x5
+R0
+Z16 !s110 1744707477
+!i10b 1
+!s100 XmfzU<5HQ`n]OE;^RgXcR1
+R2
+IL:04bDE<o6E]3o@8Sz8iF0
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/kernel_1x5x5.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/kernel_1x5x5.sv
+!i122 42
+L0 1 56
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/kernel_1x5x5.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/kernel_1x5x5.sv|
+!i113 1
+R9
+R10
+vLeNet
+R0
+R16
+!i10b 1
+!s100 nQ6B@<H7T9=OcRSHUHKid3
+R2
+ICBMZ=bn2E;]P1]TID8iD<0
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/LeNet.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/LeNet.sv
+!i122 43
+L0 1 405
+R7
+r1
+!s85 0
+31
+Z17 !s108 1744707477.000000
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/LeNet.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/LeNet.sv|
+!i113 1
+R9
+R10
+n@le@net
+vmax
+R0
+R16
+!i10b 1
+!s100 IJS:5@=Vee@`OBHKa0ZP40
+R2
+IMJj2?_EcNMikhC;]AiRLV3
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/max.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/max.sv
+!i122 44
+L0 1 25
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/max.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/max.sv|
+!i113 1
+R9
+R10
+vMult
+R0
+R16
+!i10b 1
+!s100 7c67IKPU=nQk^CB@L2bmR0
+R2
+I?FUZ05aQGKhF_kLK?WaY80
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/Mult.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/Mult.sv
+!i122 45
+L0 1 17
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/Mult.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/Mult.sv|
+!i113 1
+R9
+R10
+n@mult
+vpooling_1
+R0
+R16
+!i10b 1
+!s100 @j?fA:ZcYdNdKK7Bn>QAk0
+R2
+Ie]19?:Lf8Q<HZ9P:D;SZ_3
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/pooling_1.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/pooling_1.sv
+!i122 46
+Z18 L0 1 97
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/pooling_1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/pooling_1.sv|
+!i113 1
+R9
+R10
+vpooling_2
+R0
+R16
+!i10b 1
+!s100 FVQNFX@ml4h`:K]LCA?[=2
+R2
+I_163ie0o6d`ma3Z_XITQ@0
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/pooling_2.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/pooling_2.sv
+!i122 47
+R18
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/pooling_2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/pooling_2.sv|
+!i113 1
+R9
+R10
+vsample_data_ram
+R0
+R12
+!i10b 1
+!s100 <8lgaiACQ=iN8_;TIokb_2
+R2
+IePabfE8KlhfQ_5bCe2APW1
+R3
+S1
+R4
+R5
+8D:/ECE385final_digit_recognition-main/NumberRecognition/ram/sample_data_ram.sv
+FD:/ECE385final_digit_recognition-main/NumberRecognition/ram/sample_data_ram.sv
+!i122 33
+R15
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/ECE385final_digit_recognition-main/NumberRecognition/ram/sample_data_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ECE385final_digit_recognition-main/NumberRecognition/ram/sample_data_ram.sv|
+!i113 1
+R9
+R10

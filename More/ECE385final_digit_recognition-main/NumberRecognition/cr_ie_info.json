@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus_eda",
+		"comment" : "none",
+		"error_message" : "\nQuartus Prime requested that Windows modify job info, but Windows could not do so.\nPlease report the full text of this message to Intel so we can investigate its causes.\nIn the meantime, may wish to take the following steps to work around the problem:\n   * Disabled parallel compilation if it is enabled\n   * Ensure you have sufficient memory to run Quartus.\n   * Ensure all service packs and patches from Microsoft are installed\n\nTechnical details:\n   * API: result\n   * OS code: 6 (¾ä±úÎÞÐ§¡£)\n",
+		"source_file" : "/quartus/ccl/thr/thr_process.cpp",
+		"line" : "478",
+		"stack_trace" : "\t0x7ff9321d24c8: ccl_thr + 0x24c8 (thr_os_error + 0xb8)\n\t0x7ff9321d2f1d: ccl_thr + 0x2f1d (thr_windows_error + 0xad)\n\t0x7ff9321d1cce: ccl_thr + 0x1cce (thr_process_create_and_save_job + 0x6fe)\n\t0x7ff9321d15c5: ccl_thr + 0x15c5 (thr_process_create + 0x25)\n\t0x7ff932305ca8: CCL_MSG + 0x35ca8 (?search_and_send_crash_report@MSG_CRASH_REPORT_MANAGER@@QEAAXXZ + 0x178)\n\t0x7ff9375b1288: comp_qexe + 0x11288 (qexe_do_normal + 0x1b8)\n\t0x7ff9375b6142: comp_qexe + 0x16142 (qexe_run + 0x432)\n\t0x7ff9375b6e51: comp_qexe + 0x16e51 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff6b31ffaad: quartus_eda + 0xfaad (?qneto_main@@YAHHPEAPEBD@Z + 0x9d)\n\t0x7ff9322e2e98: CCL_MSG + 0x12e98 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7ff9322e467e: CCL_MSG + 0x1467e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ff9323e6660: ccl_mem + 0x16660 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ff9322e2761: CCL_MSG + 0x12761 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff6b3219b32: quartus_eda + 0x29b32 (__tmainCRTStartup + 0x10e)\n\t0x7ff947dc7c23: KERNEL32 + 0x17c23 (BaseThreadInitThunk + 0x13)\n\t0x7ff948f8d4d0: ntdll + 0x6d4d0 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "THR"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "18.0.0",
+		"build" : "614",
+		"edition" : "Lite Edition"
+	}
+}

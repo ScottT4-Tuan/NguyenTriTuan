@@ -1,0 +1,12 @@
+module Mult#(
+    parameter Bitwidth = 8
+    )
+    (
+    input signed [Bitwidth-1:0] a,
+    input signed [Bitwidth-1:0] b,
+    output signed [Bitwidth * 2 - 1:0] c
+    );
+    
+    assign c = a * b;
+    
+endmodule

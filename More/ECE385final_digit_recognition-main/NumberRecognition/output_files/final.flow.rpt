@@ -1,0 +1,227 @@
+Flow report for final
+Wed Apr 16 00:02:00 2025
+Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++---------------------------------+------------------------------------------------+
+; Flow Status                     ; Successful - Wed Apr 16 00:02:00 2025          ;
+; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
+; Revision Name                   ; final                                          ;
+; Top-level Entity Name           ; final_toplevel                                 ;
+; Family                          ; Cyclone V                                      ;
+; Device                          ; 5CSXFC6D6F31C6                                 ;
+; Timing Models                   ; Final                                          ;
+; Logic utilization (in ALMs)     ; 10,951 / 41,910 ( 26 % )                       ;
+; Total registers                 ; 4019                                           ;
+; Total pins                      ; 206 / 499 ( 41 % )                             ;
+; Total virtual pins              ; 0                                              ;
+; Total block memory bits         ; 2,302,272 / 5,662,720 ( 41 % )                 ;
+; Total DSP Blocks                ; 112 / 112 ( 100 % )                            ;
+; Total HSSI RX PCSs              ; 0 / 9 ( 0 % )                                  ;
+; Total HSSI PMA RX Deserializers ; 0 / 9 ( 0 % )                                  ;
+; Total HSSI TX PCSs              ; 0 / 9 ( 0 % )                                  ;
+; Total HSSI PMA TX Serializers   ; 0 / 9 ( 0 % )                                  ;
+; Total PLLs                      ; 1 / 15 ( 7 % )                                 ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                                  ;
++---------------------------------+------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 04/15/2025 23:56:05 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; final               ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                 ;
++--------------------------------------+-------------------------------------------------------------+---------------+----------------+----------------------------+
+; Assignment Name                      ; Value                                                       ; Default Value ; Entity Name    ; Section Id                 ;
++--------------------------------------+-------------------------------------------------------------+---------------+----------------+----------------------------+
+; COMPILER_SIGNATURE_ID                ; 237785201188986.174473616501384                             ; --            ; --             ; --                         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; camera_configure_testbench ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; final_testbench            ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; conv_testbench             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; testbench_convolution1     ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; mult_testbench             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; bram_testbench             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; kernel_testbench           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; maxpool_testbench          ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; camera_read_testbench      ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; real_testbench             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; testbench_retrievedata     ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; fixed_testbench            ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; linear_testbench           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; choosemax_testbench        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                          ; --            ; --             ; testbench_rgb2gray         ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench_convolution1                                      ; --            ; --             ; eda_simulation             ;
+; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                                           ; --            ; --             ; eda_simulation             ;
+; EDA_SIMULATION_TOOL                  ; Questa Intel FPGA (SystemVerilog)                           ; <None>        ; --             ; --                         ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                             ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_FILE                  ; camera_configure_testbench.sv                               ; --            ; --             ; camera_configure_testbench ;
+; EDA_TEST_BENCH_FILE                  ; final_testbench.sv                                          ; --            ; --             ; final_testbench            ;
+; EDA_TEST_BENCH_FILE                  ; conv_testbench.sv                                           ; --            ; --             ; conv_testbench             ;
+; EDA_TEST_BENCH_FILE                  ; testbench_convolution1.sv                                   ; --            ; --             ; testbench_convolution1     ;
+; EDA_TEST_BENCH_FILE                  ; mult_testbench.sv                                           ; --            ; --             ; mult_testbench             ;
+; EDA_TEST_BENCH_FILE                  ; bram_testbench.sv                                           ; --            ; --             ; bram_testbench             ;
+; EDA_TEST_BENCH_FILE                  ; kernel_testbench.sv                                         ; --            ; --             ; kernel_testbench           ;
+; EDA_TEST_BENCH_FILE                  ; maxpool_testbench.sv                                        ; --            ; --             ; maxpool_testbench          ;
+; EDA_TEST_BENCH_FILE                  ; camera_read_testbench.sv                                    ; --            ; --             ; camera_read_testbench      ;
+; EDA_TEST_BENCH_FILE                  ; real_testbench.sv                                           ; --            ; --             ; real_testbench             ;
+; EDA_TEST_BENCH_FILE                  ; testbench_retrievedata.sv                                   ; --            ; --             ; testbench_retrievedata     ;
+; EDA_TEST_BENCH_FILE                  ; fixed_testbench.sv                                          ; --            ; --             ; fixed_testbench            ;
+; EDA_TEST_BENCH_FILE                  ; linear_testbench.sv                                         ; --            ; --             ; linear_testbench           ;
+; EDA_TEST_BENCH_FILE                  ; choosemax_testbench.sv                                      ; --            ; --             ; choosemax_testbench        ;
+; EDA_TEST_BENCH_FILE                  ; testbench_rgb2gray.sv                                       ; --            ; --             ; testbench_rgb2gray         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; camera_configure_testbench                                  ; --            ; --             ; camera_configure_testbench ;
+; EDA_TEST_BENCH_MODULE_NAME           ; final_testbench                                             ; --            ; --             ; final_testbench            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; conv_testbench                                              ; --            ; --             ; conv_testbench             ;
+; EDA_TEST_BENCH_MODULE_NAME           ; testbench_convolution1                                      ; --            ; --             ; testbench_convolution1     ;
+; EDA_TEST_BENCH_MODULE_NAME           ; mult_testbench                                              ; --            ; --             ; mult_testbench             ;
+; EDA_TEST_BENCH_MODULE_NAME           ; bram_testbench                                              ; --            ; --             ; bram_testbench             ;
+; EDA_TEST_BENCH_MODULE_NAME           ; kernel_testbench                                            ; --            ; --             ; kernel_testbench           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; maxpool_testbench                                           ; --            ; --             ; maxpool_testbench          ;
+; EDA_TEST_BENCH_MODULE_NAME           ; camera_read_testbench                                       ; --            ; --             ; camera_read_testbench      ;
+; EDA_TEST_BENCH_MODULE_NAME           ; data_types                                                  ; --            ; --             ; real_testbench             ;
+; EDA_TEST_BENCH_MODULE_NAME           ; testbench_retrievedata                                      ; --            ; --             ; testbench_retrievedata     ;
+; EDA_TEST_BENCH_MODULE_NAME           ; fixed_testbench                                             ; --            ; --             ; fixed_testbench            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; linear_testbench                                            ; --            ; --             ; linear_testbench           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; choosemax_testbench                                         ; --            ; --             ; choosemax_testbench        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; testbench_rgb2gray                                          ; --            ; --             ; testbench_rgb2gray         ;
+; EDA_TEST_BENCH_NAME                  ; real_testbench                                              ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; fixed_testbench                                             ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; mult_testbench                                              ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; kernel_testbench                                            ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; camera_read_testbench                                       ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; camera_configure_testbench                                  ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; bram_testbench                                              ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; conv_testbench                                              ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; maxpool_testbench                                           ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; linear_testbench                                            ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; choosemax_testbench                                         ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; final_testbench                                             ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; testbench_rgb2gray                                          ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; testbench_convolution1                                      ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; testbench_retrievedata                                      ; --            ; --             ; eda_simulation             ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 200 ns                                                      ; --            ; --             ; camera_configure_testbench ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 40 us                                                       ; --            ; --             ; final_testbench            ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 50 us                                                       ; --            ; --             ; conv_testbench             ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 3000 us                                                     ; --            ; --             ; testbench_convolution1     ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 100 ns                                                      ; --            ; --             ; mult_testbench             ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 100 ns                                                      ; --            ; --             ; bram_testbench             ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 100 ns                                                      ; --            ; --             ; kernel_testbench           ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 50 us                                                       ; --            ; --             ; maxpool_testbench          ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 200 ns                                                      ; --            ; --             ; camera_read_testbench      ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 100 ns                                                      ; --            ; --             ; real_testbench             ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 200 ns                                                      ; --            ; --             ; testbench_retrievedata     ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 100 ns                                                      ; --            ; --             ; fixed_testbench            ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 400 ns                                                      ; --            ; --             ; linear_testbench           ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 200 ns                                                      ; --            ; --             ; choosemax_testbench        ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 100 ns                                                      ; --            ; --             ; testbench_rgb2gray         ;
+; EDA_TIME_SCALE                       ; 1 ps                                                        ; --            ; --             ; eda_simulation             ;
+; FLOW_ENABLE_POWER_ANALYZER           ; On                                                          ; Off           ; --             ; --                         ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                          ; --            ; --             ; --                         ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                           ; --            ; --             ; --                         ;
+; MISC_FILE                            ; final_soc/synthesis/../final_soc.cmp                        ; --            ; --             ; --                         ;
+; MISC_FILE                            ; final_soc/synthesis/../../final_soc.qsys                    ; --            ; --             ; --                         ;
+; MISC_FILE                            ; vga_clock.ppf                                               ; --            ; --             ; --                         ;
+; MISC_FILE                            ; ram_dual_port_inst.v                                        ; --            ; --             ; --                         ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                      ; --            ; final_toplevel ; Top                        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                      ; --            ; final_toplevel ; Top                        ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                      ; --            ; final_toplevel ; Top                        ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                         ; --            ; --             ; --                         ;
+; POWER_DEFAULT_INPUT_IO_TOGGLE_RATE   ; 12.5 %                                                      ; 12.5%         ; --             ; --                         ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                       ; --            ; --             ; --                         ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                ; --            ; --             ; --                         ;
+; SLD_FILE                             ; final_soc/synthesis/final_soc.regmap                        ; --            ; --             ; --                         ;
+; SLD_FILE                             ; final_soc/synthesis/final_soc.debuginfo                     ; --            ; --             ; --                         ;
+; SLD_INFO                             ; QSYS_NAME final_soc HAS_SOPCINFO 1 GENERATION_ID 1608517326 ; --            ; final_soc      ; --                         ;
+; SMART_RECOMPILE                      ; On                                                          ; Off           ; --             ; --                         ;
+; SOPCINFO_FILE                        ; final_soc/synthesis/../../final_soc.sopcinfo                ; --            ; --             ; --                         ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                          ; --            ; --             ; --                         ;
+; TOP_LEVEL_ENTITY                     ; final_toplevel                                              ; final         ; --             ; --                         ;
++--------------------------------------+-------------------------------------------------------------+---------------+----------------+----------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:20     ; 3.7                     ; 5295 MB             ; 00:01:03                           ;
+; Fitter               ; 00:04:36     ; 1.4                     ; 8076 MB             ; 00:30:37                           ;
+; Assembler            ; 00:00:10     ; 1.0                     ; 5089 MB             ; 00:00:08                           ;
+; Power Analyzer       ; 00:00:19     ; 2.5                     ; 5707 MB             ; 00:00:42                           ;
+; Timing Analyzer      ; 00:00:16     ; 5.1                     ; 5691 MB             ; 00:01:08                           ;
+; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 5095 MB             ; 00:00:03                           ;
+; Total                ; 00:05:44     ; --                      ; --                  ; 00:33:41                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-69SCFTR  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-69SCFTR  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-69SCFTR  ; Windows 10 ; 10.0       ; x86_64         ;
+; Power Analyzer       ; DESKTOP-69SCFTR  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-69SCFTR  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-69SCFTR  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off final -c final
+quartus_fit --read_settings_files=off --write_settings_files=off final -c final
+quartus_asm --read_settings_files=off --write_settings_files=off final -c final
+quartus_pow --read_settings_files=off --write_settings_files=off final -c final
+quartus_sta final -c final
+quartus_eda --read_settings_files=off --write_settings_files=off final -c final
+
+
+

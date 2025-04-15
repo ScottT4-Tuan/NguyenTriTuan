@@ -1,0 +1,7 @@
+module rgb2grey(
+	input logic [15:0] 	pixel_data,
+	output logic [7:0]	grey_data
+);
+
+
+endmodule

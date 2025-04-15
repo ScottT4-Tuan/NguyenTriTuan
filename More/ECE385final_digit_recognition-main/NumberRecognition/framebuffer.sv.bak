@@ -1,0 +1,10 @@
+module framebuffer(
+	input logic [15:0] 	p_data,
+	input logic 			pixel_valid,
+								frame_done,
+	input logic [18:0]	address,
+	output logic [7:0]	dout
+);
+
+
+endmodule
